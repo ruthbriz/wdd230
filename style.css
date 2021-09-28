@@ -1,0 +1,41 @@
+header {
+    background-color: #00001a;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  img{
+    max-width: 100%;
+  }
+  .profile{
+      float: right;
+      height: 15em;
+      border-radius: 15px;
+  }
+  body{
+    margin: auto;
+    padding: 50px;
+  }
+  footer{
+    margin: auto;
+    background-color: #00001a;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  p,
+  h1 {
+    color:white;
+  }
+  nav a{
+    color: rgb(132, 165, 255);
+  }
+  a {
+    color: yellow;
+  }
+  @media only screen and (min-width: 32.5em) {
+   =body {
+    width: 100%;
+  }
+  }
