@@ -1,0 +1,38 @@
+
+header {
+    background-color: #226081;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    font-size: 1fr;
+    line-height: 1fr;
+}
+nav > ul{
+    list-style-type: none;
+    display: flex;
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
+    padding: 1em;
+    min-width: 70px;
+}
+nav a{
+    text-decoration: none;
+    padding: 1em;
+    font-size: 1.5em;
+    line-height: 1em;
+    text-align: center;
+}
+a:hover{
+background-color: #CDC3E0;
+}
+img {
+    max-width: 100%;
+}
+footer{
+    background-color: #226081;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
