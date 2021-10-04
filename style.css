@@ -34,8 +34,9 @@ header {
   a {
     color: yellow;
   }
-  @media only screen and (min-width: 32.5em) {
-   =body {
-    width: 100%;
-  }
+  @media (min-width: 800px) {
+ img, header, h1, h2, footer, p {
+   max-width: 100%;
+   float: center;
+ }
   }
