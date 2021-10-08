@@ -1,0 +1,107 @@
+@media only screen and (min-width: 64rem) {
+.header{
+    background-color: #226081;
+    padding: 30px;
+}
+.logo{
+    max-width: 100%;
+    height: 7em;
+}
+.title{
+    color: #CDC3E0;
+}
+.motto{
+    color: #CDC3E0;
+}
+nav button{
+    display: none;
+}
+nav {
+background: #e500e5; /* Old browsers */
+background: -moz-linear-gradient(top,  #e500e5 0%, #cdc3e0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #e500e5 0%,#cdc3e0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #e500e5 0%,#cdc3e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e500e5', endColorstr='#cdc3e0',GradientType=0 ); /* IE6-9 */
+}
+nav a {
+    text-decoration: none;
+    color: #226081;
+    font-family: "Lato", sans-serif;
+}
+nav ul{
+    margin-left: 2%;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a {
+    padding: .8rem 1rem;
+}
+nav ul li a:hover{
+    background-color: #9AA0A5;
+    color: #F1FDD8;
+}
+nav ul.hide{
+    display:block;
+}
+h1{
+    font-family: "Oswald", sans-serif;
+}
+h2{
+    font-family: "Lato", sans-serif;
+}
+p{
+    font-family: "Lato", sans-serif;
+}
+body {
+    background-color: #F1FDD8;
+    margin: 0;
+}
+.preston{
+    padding: 5%;
+}
+.hero{
+    max-height: 100%;
+    max-width: 100%;
+    margin:0;
+}
+.summary{
+    padding: 5%;
+}
+.weather-title{
+    text-align: left;
+}
+.weather-5{
+    padding: 5%;
+    background: #7FC798;
+}
+.weather-5-img{
+    display:flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+.article{
+    padding: 5%;
+    display: block;
+}
+.article-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.map{
+    max-width: 100%;
+    max-height: 100%;
+}
+footer{
+    background-color: #226081;
+    padding: 5%;
+}
+.contact{
+    float: right;
+}
+.social{
+    display: flex;
+    padding: 10px;
+}
+}
+/*end medium */
