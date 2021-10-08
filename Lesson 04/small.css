@@ -1,0 +1,119 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+    header{
+        background-color: #226081;
+        padding: 15px;
+    }
+    .header{
+        display: block;
+    }
+    .logo{
+        float: left;
+        max-width: 100%;
+        height: 5em;
+    }
+    .title{
+        color: #CDC3E0;
+        font-size: 1.1em;
+    }
+    .motto{
+        color: #CDC3E0;
+        font-size: 1em;
+    }
+    nav button{
+        background-color: #7FC798;
+        margin: 2rem 2%;
+        border: none;
+        font-size: 1.6rem;
+        color: #226081;
+        float: right;
+    }
+    nav a {
+    background: #e500e5; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e500e5 0%, #cdc3e0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #e500e5 0%,#cdc3e0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #e500e5 0%,#cdc3e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e500e5', endColorstr='#cdc3e0',GradientType=0 ); /* IE6-9 */
+    font-family: "Lato", sans-serif;
+}
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li a {
+        display: block;
+        padding: .8rem 2%;
+        text-decoration: none;
+        color: #000;
+        border-top: rbga(0,0,0,0.2);
+    }
+    nav ul li a:hover{
+        background-color: #9AA0A5;
+        color: #F1FDD8;
+    }
+    nav ul.hide{
+        display:none;
+    }
+    h1{
+        font-family: "Oswald", sans-serif;
+    }
+    h2{
+        font-family: "Lato", sans-serif;
+    }
+    p{
+        font-family: "Lato", sans-serif;
+    }
+    body {
+        background-color: #F1FDD8;
+        margin: 0;
+    }
+    .preston{
+        padding: 5%;
+    }
+    .hero{
+        max-height: 100%;
+        max-width: 100%;
+        margin:0;
+    }
+    .summary{
+        padding: 5%;
+    }
+    .weather-title{
+        text-align: center;
+        background-color: #7FC798;
+        padding: 15px;
+    }
+    .weather-5-img{
+        display:none;
+    }
+    .article{
+        padding: 5%;
+        display: block;
+    }
+    .article-img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .map{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    footer{
+        background-color: #226081;
+        padding: 5%;
+    }
+    .pin{
+        display: none;
+    }
+    .social{
+        display:none;
+    }
+    /*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
