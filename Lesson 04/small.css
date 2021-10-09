@@ -123,6 +123,12 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     }
     .date{
         text-align: center;
+        color: #226081;;
+    }
+    .info{
+        grid-column: -1/-3;
+        grid-row: 1/3;
+        color: #226081;
     }
     /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
