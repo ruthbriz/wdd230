@@ -17,19 +17,19 @@
             <h1 class = "title">Your Weather Today Center</h1>
             <p class = "motto">We tell weather for today</p>
             </div>
+            <nav class = "clearfix">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id = "primaryNav" class = "hide">
+                    <li><a href = "preston-4.html">Home</a></li>
+                    <li><a href = "preston-4.html">Preston</a></li>
+                    <li><a href = "#">Soda Springs</a></li>
+                    <li><a href = "#">Fish Haven</a></li>
+                    <li><a href = "#">Storm Center</a></li>
+                    <li><a href = "#">Galley</a></li>
+                </ul>
+            </nav>
             </div>
         </header>
-        <nav class = "clearfix">
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul id = "primaryNav" class = "hide">
-                <li><a href = "preston-4.html">Home</a></li>
-                <li><a href = "preston-4.html">Preston</a></li>
-                <li><a href = "#">Soda Springs</a></li>
-                <li><a href = "#">Fish Haven</a></li>
-                <li><a href = "#">Storm Center</a></li>
-                <li><a href = "#">Galley</a></li>
-            </ul>
-        </nav>
         <main>
             <h1 class = "preston">Preston Idaho</h1>
             <div class = "box-1">
@@ -93,7 +93,7 @@
             <a target = "blank" href = "https://www.instagram.com/"><img class = "ig" alt = "instagram logo" src = "ig.png"></a>
             </div>
             </div>
-            <div id = "today"></div>
+            <p id = "currentdate" class = "date"></p>
         </footer>
         <script src= "javascript.js">
         </script>
