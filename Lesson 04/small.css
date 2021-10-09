@@ -55,7 +55,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         padding: .8rem 2%;
         text-decoration: none;
         color: #000;
-        border-top: rbga(0,0,0,0.2);
     }
     nav ul li a:hover{
         background-color: #9AA0A5;
