@@ -1,6 +1,6 @@
 @media only screen and (min-width: 64rem) {
 .header{
-    background-color: #226081;
+    background-color: #7FC798;
     padding: 30px;
     display: block;
 }
@@ -9,10 +9,10 @@
     height: 7em;
 }
 .title{
-    color: #CDC3E0;
+    color: #226081;
 }
 .motto{
-    color: #CDC3E0;
+    color: #226081;
 }
 nav button{
     display: none;
@@ -150,7 +150,7 @@ body {
     padding: 15px;
 }
 footer{
-    background-color: #226081;
+    background-color: #7FC798;
     padding: 5%;
 }
 .contact{
