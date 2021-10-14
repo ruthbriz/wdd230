@@ -62,9 +62,6 @@ li {
 	justify-content: space-between;
 	margin-bottom: 0.5rem;
 }
-.listBtn{
-	color:red;
-}
 
 @media only screen and (min-width: 32.5em) {
 	h1 {
