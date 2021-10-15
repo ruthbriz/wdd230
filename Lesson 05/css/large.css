@@ -1,10 +1,8 @@
 @media only screen and (min-width: 64rem) {
     .header{
-        background-color: #7FC798;
         padding: 30px;
-        display: block;
-        align-items: center;
-    }
+        display: flex;
+        justify-content: center;
     }
     .logo{
         max-width: 100%;
@@ -12,9 +10,11 @@
     }
     .title{
         color: #0F2B38;
+        justify-content: center;
     }
     .motto{
         color: #0F2B38;
+        justify-content: center;
     }
     nav button{
         display: none;
@@ -25,13 +25,12 @@
     background: -webkit-linear-gradient(top,  #e500e5 0%,#cdc3e0 100%);
     background: linear-gradient(to bottom,  #e500e5 0%,#cdc3e0 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e500e5', endColorstr='#cdc3e0',GradientType=0 );
-    align-items: center;
     }
     nav a {
+        display: flex;
         text-decoration: none;
         color: #226081;
         font-family: "Lato", sans-serif;
-        align-items: center;
     }
     nav ul{
         margin-left: 2%;
@@ -39,6 +38,7 @@
     nav ul li{
         float: left;
         display: flex;
+        justify-content: center;
     }
     nav ul li a {
         padding: .8rem 1rem;
