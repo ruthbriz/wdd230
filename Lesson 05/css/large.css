@@ -1,30 +1,28 @@
 @media only screen and (min-width: 64rem) {
     .header{
         padding: 30px;
-        display: flex;
-        justify-content: center;
     }
     .logo{
         max-width: 100%;
-        height: 7em;
+        height: 10em;
+        align-items: left;
+        margin-left: 6%;
     }
     .title{
         color: #0F2B38;
-        justify-content: center;
+        font-size: 3em;
     }
     .motto{
         color: #0F2B38;
         justify-content: center;
+        font-size: 2em;
     }
     nav button{
         display: none;
     }
     nav {
-    background: #e500e5;
-    background: -moz-linear-gradient(top,  #e500e5 0%, #cdc3e0 100%);
-    background: -webkit-linear-gradient(top,  #e500e5 0%,#cdc3e0 100%);
-    background: linear-gradient(to bottom,  #e500e5 0%,#cdc3e0 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e500e5', endColorstr='#cdc3e0',GradientType=0 );
+    background-color: #9AA0A5;
+    font-family: "Lato", sans-serif;
     }
     nav a {
         display: flex;
@@ -33,15 +31,16 @@
         font-family: "Lato", sans-serif;
     }
     nav ul{
-        margin-left: 2%;
+        margin-left: 15%;
     }
     nav ul li{
         float: left;
-        display: flex;
-        justify-content: center;
     }
     nav ul li a {
-        padding: .8rem 1rem;
+        padding: .8em;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
     }
     nav ul li a:hover{
         background-color: #9AA0A5;
@@ -97,40 +96,11 @@
         padding: 1px;
     }
     .weather-5-img{
-        display: grid;
-        grid-template-columns: repeat(5, 0.5fr);
-        grid-gap: 1px;
-        margin-right: auto;
-        margin-left: auto;
+        display: flex;
+        padding: 3%;
     }
-    .weather-1{
-        grid-column: 1;
-        max-height: 50%;
+    img {
         max-width: 100%;
-    }
-    .weather-2{
-        grid-column: 2;
-        max-height: 50%;
-        max-width: 100%;
-    }
-    .weather-3{
-        grid-column: 3;
-        max-height: 50%;
-        max-width: 100%;
-    }
-    .weather-4{
-        grid-column: 4;
-        max-height: 50%;
-        max-width: 100%;
-    }
-    .weather-5{
-        grid-column: 5;
-        max-height: 50%;
-        max-width: 100%;
-    }
-    .weather-title{
-        padding: 5%;
-        grid-row: 1;
     }
     .article{
         margin-right: auto;
