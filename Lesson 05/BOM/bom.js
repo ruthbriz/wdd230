@@ -21,6 +21,5 @@ button.onclick = function() {
   listBtn.onclick = function(e) {
 	list.removeChild(listItem);
   }
-
   input.focus();
 }
