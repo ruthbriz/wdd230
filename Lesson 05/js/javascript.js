@@ -31,13 +31,12 @@ const year = d.getFullYear();
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("currentdate").textContent = fulldate;
 
-
-const today = new Date();
-if(dayname == Friday) {
-  const friday = document.querySelector("#alert")
-  friday.remove()
-}
-
 document.querySelector(".closebtn").addEventListener("click", function () {
 	this.closest(".alert").remove();
   });
+
+var today = new Date();
+if(today == Friday) {
+  const friday = document.querySelector("#banner")
+  friday.remove()
+}
