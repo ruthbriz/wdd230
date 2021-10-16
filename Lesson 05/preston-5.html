@@ -12,6 +12,10 @@
     </head>
     <body>
         <header>
+            <div class="alert" id = "banner">
+                <button class= "closebtn" type = "button">&times;</button> 
+                <strong>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</strong>
+              </div>
             <div class = "header">
             <img class = "logo" src = "images/weather_icon.png" alt = "website's logo">
             <div class = "combined">
@@ -19,7 +23,7 @@
             <p class = "motto">We tell weather for today</p>
             </div>
         </header>
-                    <nav class = "clearfix">
+                <nav class = "clearfix">
                 <button onclick="toggleMenu()">&#9776;</button>
                 <ul id = "primaryNav" class = "hide">
                     <li><a href = "preston-5.html">Home</a></li>
@@ -34,14 +38,14 @@
             <h1 class = "preston">Preston Idaho</h1>
             <div class = "box-1">
             <img class = "hero" src = "images/hero.jpg"  alt = "hero image">
-            <div class = "summary">
+            <section class = "summary">
                 <h2>Weather Summary</h2>
                 <p class = "summary-paragraph">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Fringilla urna porttitor rhoncus dolor. At varius vel pharetra vel turpis nunc eget lorem dolor.
                     Sagittis vitae et leo duis ut diam. Scelerisque purus semper eget duis at tellus at urna.
                 </p>
-            </div>
+            </section>
             </div>
                 <h2 class = "weather-title">Five Day Weather Forecast</h2>
                 <div class = "weather-5-img">
@@ -52,6 +56,7 @@
                 <img class = "weather-5" src = "images/1530392_weather_sun_sunny_temperature_icon.png" alt = "weather forecast">
             </div>
             <div class = "article">
+                <div class = "article-1">
                 <img class = "article-img" src = "images/article.jpg" alt = "article image">
                 <h2 class = "article-title">Article Title</h2>
                 <p class = "article-paragraph">
@@ -72,18 +77,17 @@
                     Pretium vulputate sapien nec sagittis aliquam malesuada bibendum. At erat pellentesque adipiscing commodo elit at imperdiet dui accumsan.
                     Bibendum arcu vitae elementum curabitur vitae nunc sed.
                 </p>
+                </div>
              </div>
         </main>
         <footer>
             <div class = "contact">
-            <div class = "info">
-               <h2>Contact Information</h2>
-                <ul>
-                    <li class = "pin">&#9906; Lorem ipsum dolor sit amet</li>
-                    <li>&phone; + 5 555-555-5555</li>
-                    <li>&#9993; yourweathertodaycenter@gmail.com</li>
-                </ul>
-            </div>
+                <div class = "list"> 
+                    <h2>Contact Information</h2>
+                    <p class = "pin">&#9906; Lorem ipsum dolor sit amet</p>
+                    <p>&phone; + 5 555-555-5555</p>
+                    <p>&#9993; yourweathertodaycenter@gmail.com</p>
+                </div>
             <img class = "map" src = "images/preston.jpg" alt = "map of preston">
             <div class = "social">
             <a target = "blank" href = "https://www.facebook.com/"><img class = "fb" src = "images/fb.png" alt = "facebook"></a>
