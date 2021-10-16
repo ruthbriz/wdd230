@@ -31,18 +31,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         margin-top: 10px;;
     }
     nav button{
-        background-color: #7FC798;
-        border: none;
+        background-color: #9AA0A5;
         font-size: 2rem;
         color: #0F2B38;
         margin-top: 10px;
     }
     nav a {
-    background: #e500e5; /* Old browsers */
-    background: -moz-linear-gradient(top,  #e500e5 0%, #cdc3e0 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #e500e5 0%,#cdc3e0 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #e500e5 0%,#cdc3e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e500e5', endColorstr='#cdc3e0',GradientType=0 ); /* IE6-9 */
+    background-color: #9AA0A5;
     font-family: "Lato", sans-serif;
 }
     nav ul{
