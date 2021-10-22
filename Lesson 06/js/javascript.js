@@ -35,8 +35,8 @@ document.querySelector(".closebtn").addEventListener("click", function () {
 	this.closest(".alert").remove();
   });
   
-  var today = new Date();
-  if(today.getDay() != 5) {
+  const friday = new Date();
+  if(friday.getDay() != 5) {
 	const banner = document.querySelector("#banner")
 	banner.remove()
   }
