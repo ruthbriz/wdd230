@@ -40,3 +40,6 @@ if(today == Friday) {
   const friday = document.querySelector("#banner")
   friday.remove()
 }
+else{
+	document.querySelector("#banner").style.display = "none";
+}
