@@ -35,15 +35,12 @@ document.querySelector(".closebtn").addEventListener("click", function () {
 	this.closest(".alert").remove();
   });
   
-function banner(){
-	  if ((dayName === "Friday")){
-	  document.querySelector("banner").style.display;
+  const today = new Date();
+  if(today.getDay() != "Friday") {
+	const banner = document.querySelector("#banner")
+	banner.remove()
   }
-  else{
-	  document.querySelector("banner").style.display = "none";
-  }
-}
-
+  
   WebFont.load({
     google: {
       families: [
