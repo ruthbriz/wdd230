@@ -41,3 +41,11 @@ document.querySelector(".closebtn").addEventListener("click", function () {
   else{
 	  document.querySelector("banner").style.display = "none";
   }
+
+  WebFont.load({
+    google: {
+      families: [
+         "Oswald, Lato"
+      ]
+    }
+  });
