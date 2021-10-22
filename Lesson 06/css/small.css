@@ -67,6 +67,11 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     p{
         font-family: "Lato", sans-serif;
     }
+    .alert{
+        background-color: #c1e4f7;
+        padding: 10px;
+        float: center;
+    }
     body {
         background-color: #F1FDD8;
         margin: 0;
@@ -75,9 +80,10 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         padding: 5%;
     }
     .hero{
-        max-height: 100%;
-        max-width: 100%;
-        margin:0;
+        display: block;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .summary{
         padding: 5%;
@@ -94,10 +100,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         padding: 5%;
         margin: 0;
         display: block;
-    }
-    .article-title{
-    }
-    .article-paragraph{
     }
     .article-img{
         max-width: 100%;
