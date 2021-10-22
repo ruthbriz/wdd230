@@ -34,13 +34,15 @@ document.getElementById("currentdate").textContent = fulldate;
 document.querySelector(".closebtn").addEventListener("click", function () {
 	this.closest(".alert").remove();
   });
-
-  if ((dayName === "Friday")){
-	  document.querySelector("banner").style.display = "";
+  
+function banner(){
+	  if ((dayName === "Friday")){
+	  document.querySelector("banner").style.display;
   }
   else{
 	  document.querySelector("banner").style.display = "none";
   }
+}
 
   WebFont.load({
     google: {
