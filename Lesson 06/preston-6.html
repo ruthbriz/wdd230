@@ -50,9 +50,16 @@
                 <h2>Weather Summary</h2>
                 <p>Currently: Rainy</p>
                  <p>High: 54 °F</p>
-                <p>Wind Chill: </p>
+                <p>Wind Chill:</p><p class = "wc" id = "windchill"></p>
                 <p>Humidity: 95%</p>
-                <p>Wind Speed: 12 mph</p>
+                <form id = "windchill">
+                <p>Wind Speed:</p>
+                <input type="text" id="windspeed" name="windspeed">
+                <p>Temperature</p>
+                <input type="text" id="temp" name="temp">
+                <br><br>
+                <input type="button" value="calculate" onclick="toggleMenu()" id = "Calculate">
+                  </form>
             </section>
             </div>
                 <h2 class = "weather-title">Five Day Weather Forecast</h2>
