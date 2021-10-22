@@ -80,10 +80,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         padding: 5%;
     }
     .hero{
-        display: block;
-        width: 50%;
-        margin-right: auto;
-        margin-left: auto;
+        margin: 0 2%;
     }
     .summary{
         padding: 5%;
