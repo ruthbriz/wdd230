@@ -67,6 +67,11 @@
         background-color: #F1FDD8;
         margin: 0;
     }
+    .alert{
+        background-color: #c1e4f7;
+        padding: 10px;
+        float: center;
+    }
     .preston{
         padding: 5%;
         margin-left: 5%;
