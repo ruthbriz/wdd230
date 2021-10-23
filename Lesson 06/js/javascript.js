@@ -35,10 +35,9 @@ document.querySelector(".closebtn").addEventListener("click", function () {
 	this.closest(".alert").remove();
   });
 
-  if (DayName == "Friday"){
-	  document.getElementById("banner");
+  if ((dayName === "Friday")){
+	  document.querySelector("banner").style.display = "";
   }
   else{
-	  document.getElementById("banner").style.display = "none";
-	  )
+	  document.querySelector("banner").style.display = "none";
   }
