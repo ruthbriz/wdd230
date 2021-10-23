@@ -30,3 +30,15 @@ const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("currentdate").textContent = fulldate;
+
+document.querySelector(".closebtn").addEventListener("click", function () {
+	this.closest(".alert").remove();
+  });
+
+  if (DayName == "Friday"){
+	  document.getElementById("banner");
+  }
+  else{
+	  document.getElementById("banner").style.display = "none";
+	  )
+  }
