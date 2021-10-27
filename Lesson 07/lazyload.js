@@ -1,22 +1,26 @@
-const images = document.querySelectorAll('img[data-src]');
+const images = document.querySelectorAll('[data-src]');
 
 
 const imgOptions = {
-    threshold: 0,
-    rootMargin: "0px 0px 5px 0px"
+    threshold: 1,
+    rootMargin: "0px 0px 100px 0px"
 };
 
-const imgObserver = new IntersectionObserver((entries, imgObserver) =>{
-    entries.forEach(entry => {
-        if (!entry.isIntersection){
-            return;
-        } else {
-            preloadImage(entry.target);
-            imgObserver.unobserve(entry.target);
-        }
-    })
+const loadImages = (images) => {
+    image.setAttribute('src', image.getAttribute('data-src'));
+    image.onload = () => {image.removeAttribute('date-src');};
+};
+
+if ('IntersectionObserver' in window) {
+    const imgObserver = new IntersectionObserver((images, observer) =>
+    items.forEach((item) => {
+    });
 }, imgOptions);
 
-images.forEach(image => {
-    imgObserver.observe(image);
+imagestoLoad.forEach((img) => {
+imgObserver.observer(img);
 });
+}
+else{
+    
+}
