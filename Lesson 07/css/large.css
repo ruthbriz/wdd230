@@ -36,12 +36,9 @@
         text-decoration: none;
         color: #226081;
         font-family: "Lato", sans-serif;
-        justify-content: center;
     }
     nav ul{
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 10%;
     }
     nav ul li{
         float: left;
