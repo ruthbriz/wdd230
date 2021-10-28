@@ -24,7 +24,8 @@ header{
 }
 .combined{
     display: block;
-    margin-top: 10px;;
+    margin-top: 10px;
+    font-size: 1em;
 }
 nav button{
     background-color: #9AA0A5;
