@@ -47,4 +47,4 @@ document.querySelector(".closebtn").addEventListener("click", function () {
          "Oswald, Lato"
       ]
     }
-  });
+  });  
