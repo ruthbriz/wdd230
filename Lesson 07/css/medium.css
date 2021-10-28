@@ -1,3 +1,4 @@
+/* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
     header{
         background-color: #7FC798;
@@ -72,11 +73,52 @@
         background-color: #F1FDD8;
         margin: 0;
     }
+    main{
+        padding: 25px;
+        margin: auto;
+    }
+    .pictures img{
+        width: 300px;
+        height: 200px;
+    }
+    .pictures{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        margin: auto;
+    }
+    .snow{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .sunny{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .lightning{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .cloudy{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .tornado{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .stormy{
+        grid-column: 2;
+        grid-row: 3;
+    }
     .map{
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 50%;
+        max-height: 50%;
         margin-left: auto;
         margin-right: auto;
+        justify-content: center;
+        align-items: center;
     }
     footer{
         background-color: #7FC798;
@@ -95,6 +137,7 @@
         align-items: center;
         margin-left: 5px;
         margin-right: 5px;
+        font-size: 1em;
     }
     .date{
         padding: 5px;
@@ -107,4 +150,6 @@
     display: table;
     clear: both;
   }
-}
+
+
+} /*end medium */
