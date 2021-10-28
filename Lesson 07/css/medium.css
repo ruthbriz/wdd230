@@ -1,7 +1,4 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-/*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+@media only screen and (min-width: 35rem) {
     header{
         background-color: #7FC798;
         padding: 15px;
@@ -70,41 +67,10 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     .alert{
         background-color: #c1e4f7;
         padding: 10px;
-        float: center;
     }
     body {
         background-color: #F1FDD8;
         margin: 0;
-    }
-    .preston{
-        padding: 5%;
-    }
-    .hero{
-        display: block;
-        width: 50%;
-        padding: 5px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .summary{
-        padding: 5%;
-    }
-    .weather-title{
-        text-align: center;
-        background-color: #7FC798;
-        padding: 15px;
-    }
-    .weather-5-img{
-        display:none;
-    }
-    .article{
-        padding: 5%;
-        margin: 0;
-        display: block;
-    }
-    .article-img{
-        max-width: 100%;
-        max-height: 100%;
     }
     .map{
         max-width: 100%;
@@ -141,3 +107,4 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     display: table;
     clear: both;
   }
+}
