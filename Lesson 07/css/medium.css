@@ -26,7 +26,8 @@
     }
     .combined{
         display: block;
-        margin-top: 10px;;
+        margin-top: 10px;
+        font-size: 2em;
     }
     nav button{
         background-color: #9AA0A5;
