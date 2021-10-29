@@ -78,13 +78,21 @@
         margin: auto;
     }
     .pictures img{
-        width: 400px;
+        width: 320px;
         height: 300px;
         border-radius: 30px
     }
-    picture:hover{
+    figure:hover{
         border-radius: 30px;
         box-shadow: 7px 10px rgba(48, 48, 48, 0.5);
+    }
+    figcaption{
+        font-family: "Lato", sans-serif;
+        text-align: center;
+        padding: 10px;
+    }
+    figure{
+        padding: 10px;
     }
     .pictures{
         display: grid;
