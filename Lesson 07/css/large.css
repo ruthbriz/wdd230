@@ -76,7 +76,7 @@
         padding: 20px;
         margin: auto;
     }
-    .pictures figure img:hover{
+    .pictures figure:hover{
         border-radius: 30px;
         box-shadow: 7px 10px rgba(48, 48, 48, 0.5);
     }
