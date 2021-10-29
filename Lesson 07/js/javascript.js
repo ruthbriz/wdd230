@@ -31,16 +31,6 @@ const year = d.getFullYear();
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("currentdate").textContent = fulldate;
 
-document.querySelector(".closebtn").addEventListener("click", function () {
-	this.closest(".alert").remove();
-  });
-  
-  const friday = new Date();
-  if(friday.getDay() != 5) {
-	const banner = document.querySelector("#banner")
-	banner.remove()
-  }
-  
   WebFont.load({
     google: {
       families: [
@@ -48,3 +38,8 @@ document.querySelector(".closebtn").addEventListener("click", function () {
       ]
     }
   });  
+
+  
+
+
+
