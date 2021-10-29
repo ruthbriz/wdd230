@@ -14,18 +14,17 @@ header{
 }
 .title{
     color: #0F2B38;
-    font-size: 1.1em;
+    font-size: 1em;
     margin: auto;
 }
 .motto{
     color: #0F2B38;
-    font-size: 1em;
+    font-size: .9em;
     margin: auto;
 }
 .combined{
     display: block;
     margin-top: 10px;
-    font-size: 1em;
 }
 nav button{
     background-color: #9AA0A5;
