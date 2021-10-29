@@ -92,6 +92,11 @@
     }
     figure{
         padding: 10px;
+        width: 320px;
+        height: 300px;
+        border-radius: 30px;
+        filter: blur (1em);
+        transition: filter 1s;
     }
     .pictures{
         display: grid;
