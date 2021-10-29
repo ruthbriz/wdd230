@@ -8,7 +8,7 @@
     .logo{
         max-width: 100%;
         height: 10em;
-        align-items: left;
+        float: left;
         margin-left: 6%;
     }
     .title{
@@ -71,7 +71,6 @@
     .alert{
         background-color: #c1e4f7;
         padding: 10px;
-        float: center;
     }
     main{
         padding: 20px;
@@ -80,7 +79,9 @@
     .pictures img{
         width: 320px;
         height: 300px;
-        border-radius: 30px
+        border-radius: 30px;
+        filter: blur (1em);
+        transition: filter 1s;
     }
     figure:hover{
         border-radius: 30px;
@@ -105,38 +106,26 @@
     .snow{
         grid-column: 1;
         grid-row: 1;
-        filter: blur (1em);
-        transition: filter 1s;
     }
     .sunny{
         grid-column: 2;
         grid-row: 1;
-        filter: blur (1em);
-        transition: filter 1s;
     }
     .lightning{
         grid-column: 3;
         grid-row: 1;
-        filter: blur (1em);
-        transition: filter 1s;
     }
     .cloudy{
         grid-column: 1;
         grid-row: 2;
-        filter: blur (1em);
-        transition: filter 1s;
     }
     .tornado{
         grid-column: 2;
         grid-row: 2;
-        filter: blur (1em);
-        transition: filter 1s;
     }
     .stormy{
         grid-column: 3;
         grid-row: 2;
-        filter: blur (1em);
-        transition: filter 1s;
     }
     footer{
         background-color: #7FC798;
@@ -170,4 +159,3 @@
         clear: both;
       }
     
-    }
