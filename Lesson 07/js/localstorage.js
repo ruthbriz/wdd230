@@ -1,9 +1,12 @@
 function visitCounter(){
-    const visits = document.querySelector('visit');
-if (!visits) { visits = 1;
-    document.getElementById('Visit').innerHTML = "You visited this page 1 time";
-} else {
-    visits = parseInt(visits) + 1;
-    document.getElementById('Visit').innerHTML = "You visited this page" + visits + "time";
+    const count = document.querySelector('visit');
+if (count == null || count == "null")  {
+    visit = 0;
+} else{
+    visit = parseInt(count);
 }
+count++;
+lblCounter = document.getElementById("lblCounter");
+lblCounter.innerHTML = "You have been here " + visit + " times";
+localStorage.setItem("visit", visit);
 }
