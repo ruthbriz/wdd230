@@ -30,16 +30,6 @@ const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("currentdate").textContent = fulldate;
-
-document.querySelector(".closebtn").addEventListener("click", function () {
-	this.closest(".alert").remove();
-  });
-  
-  const friday = new Date();
-  if(friday.getDay() != 5) {
-	const banner = document.querySelector("#banner")
-	banner.remove()
-  }
   
   function adjustRating(stormseverity) {
     document.getElementById("stormseverityvalue").innerHTML = stormseverity;
