@@ -61,7 +61,7 @@
     .questions{
         display: grid;
         grid-template-columns: repeat(5, 3fr);
-        grid-template-rows: repeat(5, .5fr);
+        grid-template-rows: repeat(5, 6em);
         grid-gap: 10px;
     }
     .part1{
