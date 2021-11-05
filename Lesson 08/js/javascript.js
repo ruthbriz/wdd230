@@ -41,7 +41,6 @@ document.querySelector(".closebtn").addEventListener("click", function () {
 	banner.remove()
   }
   
-
-
-
-
+  function adjustRating(stormseverity) {
+    document.getElementById("stormseverityvalue").innerHTML = stormseverity;
+}
