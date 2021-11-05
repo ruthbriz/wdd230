@@ -41,44 +41,52 @@
         <main>
             <div class = "questions">
             <form action = "thanks.html">
-            <label for = "name">Full Name
-            <br><br>
-            <input type = "text" id = "name" required>
-            </label>
-            <label for = "email">Email
-            <br><br>
-            <input type = "email" id = "email" placeholder="user@email.com">
-            </label>
-            <label for = "number">Number
-            <br><br>
-            <input type = "tel" id = "number" required>
-            </label>
-            <label for = "zip">Zip Code
-            <br><br>
-            <input type = "number" id = "zip" required>
-            </label>
-            <label for = "date">Storm Date
-            <br><br>
-            <input type = "date" id = "date">
-            </label>
-            <label for = "stormtype">Storm Type
-            <br><br>
-            <input name = "stormtype" list = "stormtypelist">
-            </label>
-            <datalist id = "stormtypelist">
-                <option value = "Flash Flood">
-                <option value = "Hail">
-                <option value = "Hurricane">
-                <option value = "Thunder Storm">
-                <option value = "Tornado">
-            </datalist>
-            <label for = "stormseverity">Storm Severity
-                <br><br>
-                <input type = "range" id = "stormseverity"
-                value = "5" min = "1" max = "10" step = "1" list = "tickmarks">
-                <span id = "stormseverityvalue"></span>
+            <div class = "name">
+                <label>Full Name
+                <input type = "text" id = "name" required>
                 </label>
-                <datalist id = "stormseverity">
+                </div>
+            <div class = "email">
+                <label for = "email">Email
+                <input type = "email" id = "email" placeholder="user@email.com">
+                </label>
+            </div>
+            <div class = "number">
+                <label for = "number">Number
+                <input type = "tel" id = "number" required>
+                </label>
+            </div>
+            <div class = "zipcode">
+                <label for = "zip">Zip Code
+                <input type = "number" id = "zip" required>
+                </label>
+            </div>
+            <div class = "date">
+                <label for = "date">Storm Date
+                <input type = "date" id = "date">
+                </label>
+            </div>
+            <div class = "stormtype">
+                <label for = "stormtype">Storm Type
+                <input name = "stormtype" list = "stormtypelist">
+                </label>
+                <datalist id = "stormtypelist">
+                    <option value = "Flash Flood">
+                    <option value = "Hail">
+                    <option value = "Hurricane">
+                    <option value = "Thunder Storm">
+                    <option value = "Tornado">
+                </datalist>
+            </div>
+            <div class = "stormseverity">
+            <label for = "stormseverity">Storm Severity
+                <input type = "range" id = "stormseverity"
+                value = "5" min = "1" max = "10" step = "1" list = "tickmarks"
+                oninput="adjustRating(this.value)"
+                onchange="adjustRating(this.value)">
+                <span id = "stormseverityvalue">5</span>
+                </label>
+                <datalist id = "tickmarks">
                     <option value="0">
                     <option value="1">
                     <option value="2">
@@ -91,22 +99,31 @@
                     <option value="9">
                     <option value="10">
                 </datalist>
-                <label for = "stormseverity">Storm Severity</label>
-                <br>
-                <select id = "stormserveritylist">
-                <option value = "" disabled selected>Select a Region...</option>
-                <option value = "Preston">Preston</option>
-                <option value = "Soda Springs">Soda Springs</option>
-                <option value = "Fish Haven">Fish Haven</option>
-                </select>
-                <br><br>
-                <label for = "user-in-danger-level">User-in-danger level</label>
-                <label for = "yes">Yes
-                <input type = "radio" id = "yes"></label>
-                <label for = "no">No
-                <input type = "radio" id = "no"></label>
+                </div>
+                <div class = "stormregion">
+                    <label>Storm Region</label>
+                    <select id = "stormregionlist">
+                    <option value = "" disabled selected>Select a Region...</option>
+                    <option value = "Preston">Preston</option>
+                    <option value = "Soda Springs">Soda Springs</option>
+                    <option value = "Fish Haven">Fish Haven</option>
+                    </select>
+                </div>
+                <div class = "user-in-danger-level">
+                    <label for = "user-in-danger-level">User-in-danger level</label>
+                    <div class = "selection">
+                    <input type = "radio" id = "yes">
+                    <label for = "Yes">Yes</label>
+                    </div>
+                    <div class = "selection">
+                    <input type = "radio" id = "no">
+                    <label for = "No">No</label>
+                    </div>
+                    </div>
+                <div class = "additionalcomment">
                 <label for = "additionalcomment">Additional Information or Comment</label>
                 <textarea id = "additionalcomment"></textarea>
+                </div>
                 <br><br>
                 <input type = "submit" id = "submit">
         </form>
@@ -120,7 +137,6 @@
                     <p>&phone; + 5 555-555-5555</p>
                     <p>&#9993; yourweathertodaycenter@gmail.com</p>
                 </div>
-            <img class = "map" src = "images/preston.jpg" alt = "map of preston">
             <div class = "social">
             <a target = "blank" href = "https://www.facebook.com/"><img class = "fb" src = "images/fb.png" alt = "facebook"></a>
             <a target = "blank" href = "https://www.twitter.com/"><img class = "twitter" src = "images/twitter.png" alt = "twitter logo"></a>
@@ -131,8 +147,6 @@
             <p id = "visit" class = "number"></p>
         </footer>
         <script src= "js/javascript.js">
-        </script>
-        <script src = "js/localstorage.js">
         </script>
          <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
          </script>
