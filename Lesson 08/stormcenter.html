@@ -36,39 +36,28 @@
             <div class = "questions">
             <form action = "thanks.html">
             <div class = "part1">
-            <div class = "name">
                 <label>Full Name
                 <br>
                 <input type = "text" id = "name" required>
                 </label>
-                </div>
-            <div class = "email">
                 <label for = "email">Email
                 <br>
                 <input type = "email" id = "email" placeholder="user@email.com">
                 </label>
-            </div>
-            <div class = "number">
                 <label for = "number">Number
                 <br>
                 <input type = "tel" id = "number" required>
                 </label>
-            </div>
-            <div class = "zipcode">
                 <label for = "zip">Zip Code
                 <br>
                 <input type = "number" id = "zip" required>
                 </label>
             </div>
-            </div>
             <div class = "part2">
-            <div class = "date">
                 <label for = "date">Storm Date
                 <br>
                 <input type = "date" id = "date">
                 </label>
-            </div>
-            <div class = "stormtype">
                 <label for = "stormtype">Storm Type
                 <br>
                 <input name = "stormtype" list = "stormtypelist">
@@ -80,8 +69,6 @@
                     <option value = "Thunder Storm">
                     <option value = "Tornado">
                 </datalist>
-            </div>
-            <div class = "stormseverity">
             <label for = "stormseverity">Storm Severity
                 <br>
                 <input type = "range" id = "stormseverity"
@@ -103,8 +90,6 @@
                     <option value="9">
                     <option value="10">
                 </datalist>
-                </div>
-                <div class = "stormregion">
                     <label>Storm Region</label>
                     <br>
                     <select id = "stormregionlist">
@@ -113,14 +98,15 @@
                     <option value = "Soda Springs">Soda Springs</option>
                     <option value = "Fish Haven">Fish Haven</option>
                     </select>
-                </div>
-                <div class = "user-in-danger-level">
                     <label for = "user-in-danger-level">User-in-danger level</label>
                     <br>
+                    <div class = "selection">
                     <input type = "radio" id = "yes">
-                    <label for = "Yes">Yes</label>
+                    <label for = "yes">Yes</label>
+                    </div>
+                    <div class = "selection">
                     <input type = "radio" id = "no">
-                    <label for = "No">No</label>
+                    <label for = "no">No</label>
                     </div>
                 </div>
                 <div class = "comment">
