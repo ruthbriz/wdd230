@@ -62,6 +62,9 @@
         font-family: "Oswald", sans-serif;
         font-size: 1.2em;
     }
+    .questions{
+        background-color: #8cd0f5;
+    }
     form{
         padding: 10px;
         display:table;
