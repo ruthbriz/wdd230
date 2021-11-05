@@ -67,6 +67,10 @@
     main{
         padding: 20px;
     }
+    .questions{
+        display: block;
+        padding: 10px;
+    }
     textarea{
         width: 300px;
         height: 150px;
