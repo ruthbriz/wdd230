@@ -58,38 +58,17 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     nav ul.hide{
         display:none;
     }
-    h1, label{
+    h1{
         font-family: "Oswald", sans-serif;
-    }
-    label, select{
-        padding: 15px;
-        display:table;
-    }
-    textarea{
-        width: 300px;
-        height: 150px;
     }
     h2{
         font-family: "Lato", sans-serif;
     }
-    .alert{
-        background-color: #c1e4f7;
-        padding: 10px;
-    }
     body {
         background-color: #F1FDD8;
-        margin: 0;
-    }
-    main{
-        padding: 25px;
         margin: auto;
     }
-    .map{
-        max-width: 100%;
-        max-height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+
     footer{
         background-color: #7FC798;
         padding: 5px;
