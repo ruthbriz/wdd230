@@ -34,9 +34,8 @@
             </nav>
         <main>
             <form action = "thanks.html">
-                <div class = "questions">
-                <div class = "personal">
-                <label>Full Name
+            <fieldset class = "personal">
+                <label>Full Name*
                 <br>
                 <input type = "text" id = "name" required>
                 </label>
@@ -46,18 +45,15 @@
                 <input type = "email" id = "email" placeholder="user@email.com">
                 </label>
                 <br>
-                <label for = "number">Number
+                <label for = "number">Number*
                 <br>
                 <input type = "tel" id = "number" required>
                 </label>
                 <br>
-                <label for = "zip">Zip Code
+                <label for = "zip">Zip Code*
                 <br>
                 <input type = "number" id = "zip" required>
                 </label>
-                <br>
-                </div>
-                <div class = "storm">
                 <label for = "date">Storm Date
                 <br>
                 <input type = "date" id = "date">
@@ -74,7 +70,8 @@
                     <option value = "Thunder Storm">
                     <option value = "Tornado">
                 </datalist>
-                <br>
+            </fieldset>
+            <fieldset class = "storm">
                 <label for = "stormseverity">Storm Severity
                 <br>
                 <input type = "range" id = "stormseverity"
@@ -107,20 +104,22 @@
                     </select>
                     <br>
                     <br>
+                    <div class = "radio">
                     <label>User-in-danger level</label>
                     <br>
-                    <input type = "radio" name = "yes" id = "Yes">
-                    <label for = "yes">Yes</label>
-                    <input type = "radio" name = "yes" id = "No">
-                    <label for = "no">No</label>
-                <br><br>
+                    <input type = "radio" name = "user-in-danger" id = "Yes">
+                    <label>Yes</label>
+                    <input type = "radio" name = "user-in-danger" id = "No">
+                    <label>No</label>
+                    <br>
+                    <br>
+                    <label for = "additionalcomment">Additional Information or Comment</label>
+                    <br>
+                    <textarea id = "additionalcomment"></textarea>
+                    <br><br>
+                    <button id = "sbutton">Submit</button>
                 </div>
-                </div>
-                <label for = "additionalcomment">Additional Information or Comment</label>
-                <br>
-                <textarea id = "additionalcomment"></textarea>
-                <br><br>
-                <input type = "submit" id = "submit">
+            </fieldset>
         </form>
         </main>
         <footer>
