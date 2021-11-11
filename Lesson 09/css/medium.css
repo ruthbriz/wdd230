@@ -1,0 +1,49 @@
+@media only screen and (min-width: 35rem){
+    header{
+        background-color: rgb(140, 219, 255);
+        padding: 20px;
+        text-align: center;
+    }
+    body{
+        margin: 0;
+        background-color: rgb(0, 0, 0); 
+    }
+    main{
+        margin: auto 0;
+        padding: 25px;
+    }
+    p{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: Roboto Mono, sans-serif;
+    }
+    h2, h1{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: Mochiy Pop One, Verdana;
+    }
+    section{
+        background-color: rgb(140, 219, 255);
+        padding: 20px;
+        margin: 0;
+        border-radius: 20px;
+    }
+    img{
+        max-width: 100%;
+        border-radius: 15px;
+    }
+    footer{
+        background-color: rgb(140, 219, 255);
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: Mochiy Pop One, sans-serif;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    }
