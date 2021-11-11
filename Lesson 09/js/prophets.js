@@ -8,7 +8,6 @@ fetch(requestURL)
     console.table(jsonObject);  // temporary checking for valid response and data parsing
   const prophets = jsonObject['prophets'];
 
-
 for (let i = 0; i < prophets.length; i++ ) {
 
 let card = document.createElement('section');
@@ -19,14 +18,15 @@ let orders = document.createElement('p');
 let years = document.createElement('p');
 let children = document.createElement('p');
 let death = document.createElement('p');
+let image = document.createElement('img');
 
 h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-place.textContent = 'Date of Birth' + prophets[i].birthdate;
-date.textContent = 'Place of Birth' + prophets[i].birthplace;
-orders.textContent = 'Order' + prophets[i].order;
-years.textContent = 'Length' + prophets[i].length;
-children.textContent = 'Number Of Children' + prophets[i].numofchildren;
-death.textContent = 'Death' + prophets[i].death;
+date.textContent = 'Date of Birth'+ ': ' + prophets[i].birthdate;
+place.textContent = 'Place of Birth'+ ': ' + prophets[i].birthplace;
+orders.textContent = 'Order' + ': ' + prophets[i].order;
+years.textContent = 'Length' + ': ' + prophets[i].length;
+children.textContent = 'Number Of Children' + ': ' + prophets[i].numofchildren;
+death.textContent = 'Death' + ': ' + prophets[i].death;
 image.setAttribute('src', prophets[i].imageurl);
 
 card.appendChild(h2);
@@ -39,7 +39,5 @@ card.appendChild(death);
 card.appendChild(image);
 
 document.querySelector('div.cards').appendChild(card);
-
-
 }
 });
