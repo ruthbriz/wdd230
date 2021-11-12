@@ -68,31 +68,21 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         background-color: #F1FDD8;
         margin: 0;
     }
-    fieldset{
-        background-color: #eee;
-        border: 1px solid #ccc;
-        padding: 10px;
-        margin: 20px;
-        border-radius: 15px;
-        
+    main{
+        padding: 15px;
     }
-    form{
+    .hero{
+        max-width: 100%;
+    }
+    section{
+        margin:auto;
+        background-color:#9AA0A5;
+    }
+    .place{
         display: block;
-        padding: 10px;
-    }
-    textarea{
-        width: 300px;
-        height: 150px;
-        padding: .1em;
-    }
-    input,
-    select{
-        border-radius: 10px;
-        width: 200px;
-        padding: 10px;
-    }
-    label{
-        font-size: 1em;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
     footer{
         background-color: #7FC798;
