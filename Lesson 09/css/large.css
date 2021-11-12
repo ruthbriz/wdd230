@@ -81,7 +81,7 @@
         justify-content: center;
         display: grid;
     }
-    .sodasprings{
+    .place{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             align-items: center;
