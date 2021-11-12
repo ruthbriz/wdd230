@@ -67,33 +67,30 @@
     main{
         padding: 20px;
     }
-    fieldset{
-        background-color: #eee;
-        border: 1px solid #ccc;
-        padding: 30px;
-        margin: 50px;
-        border-radius: 15px;
-        
+    .hero{
+        max-width: 100%;
+        padding: 20px;
     }
-    form{
+    section{
+        background-color: #9AA0A5;
+        padding: 20px;
+        margin: 0;
+        border-radius: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-        padding: 10px;
     }
-    textarea{
-        width: 300px;
-        height: 150px;
-        padding: .1em;
-    }
-    input,
-    select{
-        border-radius: 10px;
-        width: 300px;
-        padding: 10px;
-    }
-    label{
-        font-size: 1.2em;
+    .place{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            grid-gap: 10px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
     }
     body {
         background-color: #F1FDD8;
@@ -102,6 +99,9 @@
     footer{
         background-color: #7FC798;
         padding: 20px;
+        align-items: center;
+        align-content: center;
+        text-align: center;
     }
     .contact{
         display: grid;
