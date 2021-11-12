@@ -9,23 +9,23 @@ fetch(towndata)
 
 const towns = jsonObject['towns'];
 
-for (i = 0; i < 3; i++) {
+for (i = 0; i < towns.length; i++) {
 
     let place = document.createElement('section');
-    let sodasprings = document.createElement('h2');
-    let sodamotto = document.createElement('p');
-    let sodayear = document.createElement('p');
-    let sodaimage = document.createElement('img');
+    let name = document.createElement('h2');
+    let motto = document.createElement('p');
+    let year = document.createElement('p');
+    let image = document.createElement('img');
 
-    sodasprings.textContent = towns[i].name;
-    sodamotto.textContent = towns[i].motto;
-    sodayear.textContent = towns[i].yearFounded;
-    sodaimage.setAttribute('src', towns[i].photo);
+    name.textContent = towns[i].name;
+    motto.textContent = towns[i].motto;
+    year.textContent = towns[i].yearFounded;
+    image.setAttribute('src', towns[i].photo);
 
-    place.appendChild(sodasprings);
-    place.appendChild(sodamotto);
-    place.appendChild(sodayear);
-    place.appendChild(sodaimage);
+    place.appendChild(name);
+    place.appendChild(motto);
+    place.appendChild(year);
+    place.appendChild(image);
 
  document.querySelector('div.place').appendChild(place);
 
