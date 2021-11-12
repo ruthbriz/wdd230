@@ -11,7 +11,7 @@ const towns = jsonObject['towns'];
 
 for (i = 0; i < 3; i++) {
 
-    let sodasprings = document.createElement('section');
+    let place = document.createElement('section');
     let name = document.createElement('h2');
     let motto = document.createElement('p');
     let year = document.createElement('p');
@@ -19,12 +19,15 @@ for (i = 0; i < 3; i++) {
     name.textContent = towns[0].name;
     motto.textContent = '"' + towns[0].motto + '"';
     year.textContent = 'Year Founded: ' + towns[0].yearFounded;
+    name.textContent = towns[1].name;
+    motto.textContent = '"' + towns[1].motto + '"';
+    year.textContent = 'Year Founded: ' + towns[1].yearFounded;
 
-    sodasprings.appendChild(name);
-    sodasprings.appendChild(motto);
-    sodasprings.appendChild(year);
+    place.appendChild(name);
+    place.appendChild(motto);
+    place.appendChild(year);
 
- document.querySelector('div.sodasprings').appendChild(sodasprings);
+ document.querySelector('div.place').appendChild(place);
 
 }
 });
