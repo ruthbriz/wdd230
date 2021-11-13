@@ -12,19 +12,22 @@ const towns = jsonObject['towns'];
 for (i = 2; i < 1; i++) {
 
     let fishhaven = document.createElement('section');
-    let name = document.createElement('h2');
-    let motto = document.createElement('p');
-    let year = document.createElement('p');
+    let fishname = document.createElement('h2');
+    let fishmotto = document.createElement('p');
+    let fishyear = document.createElement('p');
 
-    name.textContent = towns[2].name;
-    motto.textContent = towns[2].motto;
-    year.textContent = towns[2].yearFounded;
+    fishname.textContent = towns[1].name;
+    fishmotto.textContent = '"' + towns[1].motto + '"';
+    fishyear.textContent = 'Year Founded: ' + towns[1].yearFounded;
 
-    fishhaven.appendChild(name);
-    fishhaven.appendChild(motto);
-    fishhaven.appendChild(year);
+    fishhaven.appendChild(fishname);
+    fishhaven.appendChild(fishmotto);
+    fishhaven.appendChild(fishyear);
 
- document.querySelector('div.fishhaven').appendChild(fishhaven);
+    document.querySelector('div.fishhaven').appendChild(fishhaven);
+
+}
+});
 
 }
 });
