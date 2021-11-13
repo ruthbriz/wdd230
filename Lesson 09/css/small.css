@@ -93,6 +93,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     footer{
         background-color: #7FC798;
         padding: 5px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     .pin{
         display: none;
@@ -103,7 +106,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     .contact{
         padding: 5%;
         justify-content: center;
-        text-align: left;
+        text-align: center;
         align-items: center;
         margin-left: 5px;
         margin-right: 5px;
