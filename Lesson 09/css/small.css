@@ -77,7 +77,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     section{
         margin: 0;
         background-color:#9AA0A5;
-        padding: 10px;
     }
     .place{
         margin: 0;
@@ -87,8 +86,20 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         justify-content: center;
         padding: 30px;
     }
-    img{
+    img, picture{
         max-width: 100%;
+    }
+    .soda{
+        display: block;
+        margin: 0;
+    }
+    .fish{
+        display: block;
+        margin: 0;
+    }
+    .pres{
+        display: block;
+        margin: 0;
     }
     footer{
         background-color: #7FC798;
