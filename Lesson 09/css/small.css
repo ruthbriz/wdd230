@@ -84,6 +84,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         text-align: center;
         justify-content: center;
     }
+    img{
+        max-width: 100%;
+    }
     footer{
         background-color: #7FC798;
         padding: 5px;
