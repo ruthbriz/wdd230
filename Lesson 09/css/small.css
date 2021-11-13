@@ -75,14 +75,17 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         max-width: 100%;
     }
     section{
-        margin:auto;
+        margin: 0;
         background-color:#9AA0A5;
+        padding: 10px;
     }
     .place{
+        margin: 0;
         display: block;
         align-items: center;
         text-align: center;
         justify-content: center;
+        padding: 30px;
     }
     img{
         max-width: 100%;
