@@ -78,6 +78,9 @@
         flex-wrap: wrap;
         flex-direction: row;
     }
+    img{
+        max-width: 100%;
+    }
     footer{
         background-color: #7FC798;
         padding: 20px;
