@@ -90,6 +90,10 @@
         grid-template-columns: repeat(5, 10em);
         grid-template-rows: repeat(3, 5fr);
         grid-gap: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
     }
     .list{
         grid-column: 1/3;
