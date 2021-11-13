@@ -65,7 +65,7 @@
         font-family: "Lato", sans-serif;
     }
     main{
-        padding: 20px;
+        padding: 30px;
     }
     .hero{
         max-width: 100%;
@@ -91,10 +91,14 @@
             text-align: center;
             align-items: center;
             justify-content: center;
+            padding: 30px;
     }
     body {
         background-color: #F1FDD8;
         margin: 0;
+    }
+    img{
+        max-width: 100%;
     }
     footer{
         background-color: #7FC798;
