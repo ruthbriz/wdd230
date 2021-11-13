@@ -84,6 +84,7 @@
     .place{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: .1fr .1fr;
             align-items: center;
             justify-content: center;
             text-align: center;
@@ -91,13 +92,22 @@
             text-align: center;
             align-items: center;
             justify-content: center;
-            padding: 30px;
+            padding: 20px;
+    }
+    .soda{
+        display: block;
+    }
+    .fish{
+        display: block;
+    }
+    .pres{
+        display: block;
     }
     body {
         background-color: #F1FDD8;
         margin: 0;
     }
-    img{
+    img, picture{
         max-width: 100%;
     }
     footer{
