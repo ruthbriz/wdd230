@@ -9,7 +9,7 @@ else {
 document.getElementById("windchill").innerHTML = "N/A!";
 }
 
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=94c91cdf1598c682eab6d60fbe9ff1bf";
+const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&units=metric&appid=94c91cdf1598c682eab6d60fbe9ff1bf";
 fetch(apiURL)
 .then((response) => response.json())
 .then((jsObject) => {
