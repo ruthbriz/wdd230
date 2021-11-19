@@ -4,15 +4,6 @@ fetch(forecast)
 .then((jsObject) => {
   console.log(jsObject);
 
-  const daynames = [
-	"Sunday",
-	"Monday",
-	"Tuesday",
-	"Wednesday",
-	"Thursday",
-	"Friday",
-	"Saturday"
-];
    const dayName =  [jsObject.list[0].dt_txt];
     document.getElementById('mon').textContent = dayName;
   document.getElementById('day1').textContent = jsObject.list[0].main.temp;
