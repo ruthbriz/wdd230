@@ -3,4 +3,8 @@ fetch(forecast)
 .then((response) => response.json())
 .then((jsObject) => {
   console.log(jsObject);
+
+  document.getElementById('day1').textContent = jsObject.list[0].main.temp;
+  const image1 = jsObject.list[0].weather[0].icon;
+  document.getElementById('weather1').setAttribute('src', image1);
   });
