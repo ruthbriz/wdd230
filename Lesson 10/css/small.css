@@ -132,6 +132,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         margin-left: 5px;
         margin-right: 5px;
     }
+    .link{
+        text-align: center;
+    }
     .date{
         padding: 5px;
         text-align: center;
