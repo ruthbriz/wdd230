@@ -169,6 +169,9 @@
         display: flex;
         grid-gap: 15px;
     }
+    .link{
+        text-align: center;
+    }
     .clearfix:after {
         content: "";
         display: table;
