@@ -112,6 +112,9 @@
     table{
         display: none;
     }
+    .weather-title{
+        display: none;
+    }
     footer{
         background-color: #7FC798;
         padding: 5px;
