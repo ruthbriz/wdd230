@@ -109,6 +109,9 @@
         margin-left: auto;
         margin-right: auto;
     }
+    table{
+        display: none;
+    }
     footer{
         background-color: #7FC798;
         padding: 5px;
