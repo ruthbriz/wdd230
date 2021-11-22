@@ -5,6 +5,8 @@ fetch(forecast)
   console.log(jsObject);
   
   document.getElementById('day1').textContent = jsObject.list[0].main.temp;
+  const imagesrc = 'http://openweathermap.org/img/wn/10d@2x.png' + jsObject.weather[0].icon;
+  document.getElementById('icon').setAttribute('src', imagesrc);
 
   document.getElementById('day2').textContent = jsObject.list[1].main.temp;
 
