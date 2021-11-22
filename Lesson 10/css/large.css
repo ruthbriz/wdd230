@@ -139,12 +139,13 @@
         margin-left: auto;
         margin-right: auto;
     }
-    footer{
-        background-color: #7FC798;
-    }
     .weather-title{
         display: block;
     }
+    footer{
+        background-color: #7FC798;
+    }
+ 
     .contact{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
