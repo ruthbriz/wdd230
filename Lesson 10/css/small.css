@@ -114,6 +114,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         margin-left: auto;
         margin-right: auto;
     }
+    table{
+        display: none;
+    }
     footer{
         background-color: #7FC798;
         padding: 5px;
