@@ -8,7 +8,7 @@ document.getElementById("windchill").innerHTML = f + " °C";
 else {
 document.getElementById("windchill").innerHTML = "N/A!";
 }
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?1=Fish Haven&units=metric&appid=94c91cdf1598c682eab6d60fbe9ff1bf";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Fish Haven&units=imperial&appid=94c91cdf1598c682eab6d60fbe9ff1bf";
 fetch(apiURL)
 .then((response) => response.json())
 .then((jsObject) => {
