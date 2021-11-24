@@ -68,14 +68,15 @@
     fieldset{
         background-color: #eee;
         border: 1px solid #ccc;
-        padding: 10px;
-        margin: 20px;
+        padding: 30px;
+        margin: 50px;
         border-radius: 15px;
         
     }
     form{
         display: block;
-        padding: 10px;
+        padding: 5px;
+        margin: 0;
     }
     textarea{
         width: 300px;
@@ -85,15 +86,28 @@
     input,
     select{
         border-radius: 10px;
-        width: 200px;
+        max-width: 100%;
         padding: 10px;
     }
+    #date{
+        width: 240px;
+    }
+    #stormseverity, #stormregionlist{
+        width: 250px;
+    }
     label{
-        font-size: 1em;
+        font-size: 1.2em;
+    }
+    body {
+        background-color: #F1FDD8;
+        margin: 0;
     }
     footer{
         background-color: #7FC798;
         padding: 5px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
     .pin{
         display: none;
@@ -104,7 +118,7 @@
     .contact{
         padding: 5%;
         justify-content: center;
-        text-align: left;
+        text-align: center;
         align-items: center;
         margin-left: 5px;
         margin-right: 5px;
@@ -119,5 +133,5 @@
     content: "";
     display: table;
     clear: both;
-  }
+}
 }
