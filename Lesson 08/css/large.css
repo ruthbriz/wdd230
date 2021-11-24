@@ -140,6 +140,16 @@
         grid-row: 2;
         gap: 10px;
     }
+    .bottom{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
     .clearfix:after {
         content: "";
         display: table;
