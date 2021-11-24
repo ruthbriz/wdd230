@@ -132,6 +132,9 @@
     .article-paragraph{
      padding: 50px;   
     }
+    .source{
+        color: #89e7aa;
+    }
     footer{
         background-color: #7FC798;
         padding: 20px;
