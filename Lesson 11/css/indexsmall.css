@@ -95,14 +95,29 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     .soda{
         display: block;
         margin: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1em;
+        padding: 10px;
     }
     .fish{
         display: block;
         margin: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1em;
+        padding: 10px;
     }
     .pres{
         display: block;
         margin: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1em;
+        padding: 10px;
     }
     footer{
         background-color: #7FC798;
@@ -118,12 +133,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         display:none;
     }
     .contact{
-        padding: 5%;
         justify-content: center;
         text-align: center;
         align-items: center;
-        margin-left: 5px;
-        margin-right: 5px;
     }
     .date{
         padding: 5px;
