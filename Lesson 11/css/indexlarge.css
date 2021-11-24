@@ -88,23 +88,29 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: .1fr .1fr;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
             grid-gap: 10px;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
             padding: 20px;
     }
     .soda{
         display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: .9em;
     }
     .fish{
         display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: .9em;
     }
     .pres{
         display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: .9em;
     }
     body {
         background-color: #F1FDD8;
