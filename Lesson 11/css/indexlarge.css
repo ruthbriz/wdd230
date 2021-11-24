@@ -1,0 +1,144 @@
+@media only screen and (min-width: 64rem) {
+    header{
+        background-color: #7FC798;
+    }
+    .header{
+        padding: 30px;
+    }
+    .logo{
+        max-width: 100%;
+        height: 10em;
+        float: left;
+        margin-left: 6%;
+    }
+    .title{
+        color: #0F2B38;
+        font-size: 3em;
+    }
+    .motto{
+        color: #0F2B38;
+        font-size: 2em;
+    }
+    .active .li:hover{
+        background-color: #242424;
+        color: #F1FDD8;
+    }
+    nav button{
+        display: none;
+    }
+    nav {
+    background-color: #9AA0A5;
+    font-family: "Lato", sans-serif;
+    }
+    nav a {
+        display: flex;
+        text-decoration: none;
+        color: #226081;
+        font-family: "Lato", sans-serif;
+    }
+    nav ul{
+        list-style-type: none;
+        margin-left: 15%;
+    }
+    nav ul li{
+        float: left;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li a {
+        padding: .8em;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li a:hover{
+        background-color: #242424;
+        color: #F1FDD8;
+    }
+    nav ul.hide{
+        display:block;
+    }
+    h1{
+        font-family: "Oswald", sans-serif;
+    }
+    h2{
+        font-family: "Lato", sans-serif;
+    }
+    main{
+        padding: 30px;
+    }
+    .hero{
+        max-width: 100%;
+        padding: 20px;
+    }
+    section{
+        background-color: #9AA0A5;
+        padding: 20px;
+        margin: 0;
+        border-radius: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+    }
+    .place{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: .1fr .1fr;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            grid-gap: 10px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+    }
+    .soda{
+        display: block;
+    }
+    .fish{
+        display: block;
+    }
+    .pres{
+        display: block;
+    }
+    body {
+        background-color: #F1FDD8;
+        margin: 0;
+    }
+    img, picture{
+        max-width: 100%;
+    }
+    footer{
+        background-color: #7FC798;
+        padding: 20px;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: repeat(5, 10em);
+        grid-template-rows: repeat(3, 5fr);
+        grid-gap: 10px;
+    }
+    .list{
+        grid-column: 1/3;
+        grid-row: 1/5;
+    }
+    .pin{
+        display: block;
+    }
+    .social{
+        display: flex;
+        grid-column: 4/6;
+        grid-row: 2;
+        gap: 10px;
+    }
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+}
