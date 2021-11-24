@@ -59,7 +59,7 @@
     h2{
         font-family: "Lato", sans-serif;
     }
-    p{
+    p, .article-paragraph{
         font-family: "Lato", sans-serif;
     }
     body {
