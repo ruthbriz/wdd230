@@ -136,21 +136,26 @@
     }
     footer{
         background-color: #7FC798;
-        padding: 5px;
-    }
-    .pin{
-        display: none;
-    }
-    .social{
-        display:none;
+        padding: 20px;
     }
     .contact{
-        padding: 5%;
+        display: grid;
+        grid-template-columns: repeat(5, 5em);
+        grid-template-rows: repeat(3, 5fr);
+        grid-gap: 10px;
     }
-    .date{
-        padding: 5px;
-        text-align: center;
-        color: #0F2B38;
+    .list{
+        grid-column: 1/4;
+        grid-row: 1/5;
+    }
+    .pin{
+        display: block;
+    }
+    .social{
+        display: flex;
+        grid-column: 4/6;
+        grid-row: 2;
+        gap: 10px;
     }
     /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
