@@ -90,6 +90,7 @@
         grid-row: 1/6;
     }
     .summary{
+        color: black;
         font-size: .9em;
         position: absolute;
         top: 90%;
@@ -164,6 +165,7 @@
         background-color: #7FC798;
     }
     .contact{
+        text-align: left;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 5fr);
