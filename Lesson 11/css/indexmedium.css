@@ -100,6 +100,19 @@
     picture{
         max-width: 50%;
     }
+        .article{
+        color: #89e7aa;
+        background-color: #196c92;
+        padding: 30px;
+    }
+    .idaho{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .article-paragraph{
+     padding: 50px;   
+    }
     footer{
         background-color: #7FC798;
         padding: 20px;
