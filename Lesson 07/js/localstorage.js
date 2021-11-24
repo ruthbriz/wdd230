@@ -7,5 +7,10 @@ if (n === null) {
 n++;
  
 localStorage.setItem("on_load_counter", n);
+
+if (n == 1){
+    document.getElementById('counter').innerHTML = 'You visted this site ' + n + ' time';
+} else{
+    document.getElementById('counter').innerHTML = 'You visted this site ' + n + ' times';
+}
  
-document.getElementById('counter').innerHTML = n;
