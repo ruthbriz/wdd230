@@ -4,7 +4,10 @@ fetch(forecast)
 .then((jsObject) => {
   console.log(jsObject);
 
-  document.getElementById("mon").textContent = jsObject.list[0].dt_txt;
+  const daynames = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  let d = new Date(forecast.dt_txt)
+
+  document.getElementById("mon").textContent = daynames[d.getDay()];
   document.getElementById('day1').textContent = jsObject.list[0].main.temp;
   const weather1 = 'https://openweathermap.org/img/wn/' + jsObject.list[0].weather[0].icon + '@2x.png';
   document.getElementById('weather1').setAttribute('src', weather1);
