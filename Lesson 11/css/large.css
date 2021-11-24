@@ -70,7 +70,7 @@
         background-color: #c1e4f7;
         padding: 10px;
     }
-    .preston{
+    .name{
         padding: 5%;
         margin-left: 5%;
     }
@@ -140,10 +140,29 @@
     .weather-title{
         display: block;
     }
+    .event{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: #89e7aa;
+    }
+    .town{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: #89e7aa;
+    }
+    section{
+        background-color: #196c92;
+        padding: 30px;
+    }
     footer{
         background-color: #7FC798;
     }
- 
     .contact{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
