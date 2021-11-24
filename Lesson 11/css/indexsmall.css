@@ -119,6 +119,20 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         font-size: 1em;
         padding: 10px;
     }
+    .article{
+        color: #89e7aa;
+        background-color: #196c92;
+        padding: 30px;
+        text-align: center;
+    }
+    .idaho{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .article-paragraph{
+     padding: 50px;  
+    }
     footer{
         background-color: #7FC798;
         padding: 5px;
