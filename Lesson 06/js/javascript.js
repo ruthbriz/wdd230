@@ -40,11 +40,3 @@ document.querySelector(".closebtn").addEventListener("click", function () {
 	const banner = document.querySelector("#banner")
 	banner.remove()
   }
-  
-  WebFont.load({
-    google: {
-      families: [
-         "Oswald, Lato"
-      ]
-    }
-  });
