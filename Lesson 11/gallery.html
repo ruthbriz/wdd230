@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale-1">
+        <title>Gallery</title>
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <link rel = "stylesheet" href = "css/small.css">
+        <link rel = "stylesheet" href = "css/medium.css">
+        <link rel = "stylesheet" href = "css/large.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+    <body>
+        <header>
+            <div class = "header">
+            <img class = "logo" src = "images/weather_icon.png" alt = "website's logo">
+            <div class = "combined">
+            <h1 class = "title">Your Weather Today Center</h1>
+            <p class = "motto">We tell weather for today</p>
+            </div>
+            </div>
+        </header>
+                <nav class = "clearfix">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id = "primaryNav" class = "hide">
+                    <li><a href = "https://ruthbriz.github.io/wdd230/Lesson%2011/index.html">Home</a></li>
+                    <li><a href = "https://ruthbriz.github.io/wdd230/Lesson%2011/preston.html">Preston</a></li>
+                    <li><a href = "https://ruthbriz.github.io/wdd230/Lesson%2011/sodasprings.html">Soda Springs</a></li>
+                    <li><a href = "https://ruthbriz.github.io/wdd230/Lesson%2011/fishhaven.html">Fish Haven</a></li>
+                    <li><a href = "https://ruthbriz.github.io/wdd230/Lesson%2008/stormcenter.html">Storm Center</a></li>
+                    <li><a href = "gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        <main>
+            <div class = "pictures">
+            <figure class = "snow">
+                <img src = "images/placeholder.jpg" data-src = "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt = "snow">
+                <figcaption>Winter</figcaption>
+            </figure>
+            <figure class = "sunny">
+                <img src = "images/placeholder.jpg" data-src = "https://images.unsplash.com/photo-1583591749989-0d1e8c5bbf42?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt = "sunny">
+                <figcaption>Sunny</figcaption>
+            </figure>
+            <figure class = "lightning">
+                <img src = "images/placeholder.jpg" data-src = "https://images.unsplash.com/photo-1504123010103-b1f3fe484a32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt = "lightning">
+                <figcaption>Lightning</figcaption>
+            </figure>
+            <figure class = "cloudy">
+                <img src = "images/placeholder.jpg" data-src = "https://images.unsplash.com/photo-1544766230-594734c916df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt = "cloudy">
+                <figcaption>Cloudy</figcaption>
+            </figure>
+            <figure class = "tornado">
+                <img src = "images/placeholder.jpg" data-src = "https://images.unsplash.com/flagged/photo-1552483570-019b7f8119b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt = "tornado">
+                <figcaption>Tornado</figcaption>
+            </figure>
+            <figure class = "stormy">
+                <img src = "images/placeholder.jpg" data-src = "https://images.unsplash.com/photo-1569134352127-e3c3fee78c59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80" alt = "stormy">
+                <figcaption>Stormy</figcaption>
+            </figure>
+            </div>
+            <script src = "js/lazyload.js"></script>
+        </main>
+        <footer>
+            <div class = "contact">
+                <div class = "list"> 
+                    <h2>Contact Information</h2>
+                    <p class = "pin">&#9906; Lorem ipsum dolor sit amet</p>
+                    <p>&phone; + 5 555-555-5555</p>
+                    <p>&#9993; yourweathertodaycenter@gmail.com</p>
+                </div>
+            <div class = "social">
+            <a target = "blank" href = "https://www.facebook.com/"><img class = "fb" src = "images/fb.png" alt = "facebook"></a>
+            <a target = "blank" href = "https://www.twitter.com/"><img class = "twitter" src = "images/twitter.png" alt = "twitter logo"></a>
+            <a target = "blank" href = "https://www.instagram.com/"><img class = "ig" src = "images/ig.png" alt = "instagram logo"></a>
+            </div>
+            </div>
+            <div class = "bottom">
+            <p id = "currentdate" class = "date"></p>
+            <p>&copy; 2021 | Ruth Briz | Philippines</p>
+            <p><span id = "counter" class = "count"></span></p>
+            </div>
+        </footer>
+        <script src= "js/javascript.js">
+        </script>
+        <script src = "js/localstorage.js">
+        </script>
+         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+         </script>
+    </body>
+</html>
