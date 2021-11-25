@@ -19,10 +19,6 @@
         color: #0F2B38;
         font-size: 2em;
     }
-    .active .li:hover{
-        background-color: #242424;
-        color: #F1FDD8;
-    }
     nav button{
         display: none;
     }
@@ -37,13 +33,10 @@
         font-family: "Lato", sans-serif;
     }
     nav ul{
-        list-style-type: none;
         margin-left: 15%;
     }
     nav ul li{
         float: left;
-        display: flex;
-        justify-content: center;
     }
     nav ul li a {
         padding: .8em;
