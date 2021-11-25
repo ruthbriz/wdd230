@@ -1,0 +1,18 @@
+@media only screen and (min-width: 35rem) {
+    h2{
+        font-family: "Oswald", sans-serif;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    body {
+        background-color: #F1FDD8;
+        margin: 0;
+    }
+    /*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+}
