@@ -115,8 +115,17 @@
     table{
         display: none;
     }
+    .five-weather{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
     .weather-title{
         display: none;
+    }
+    .townevents{
+        padding-left: 30%;
+        padding-right: 30%;
+        border-radius: 10px;
     }
     .event{
         text-align: center;
