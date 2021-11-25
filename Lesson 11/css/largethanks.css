@@ -1,0 +1,16 @@
+@media only screen and (min-width: 64rem) {
+   
+    h2{
+        font-family: "Lato", sans-serif;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    body {
+        background-color: #F1FDD8;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
