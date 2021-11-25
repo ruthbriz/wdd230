@@ -149,7 +149,6 @@
         grid-column: 1/3;
         grid-row: 1/5;
         justify-content: left;
-        align-items: left;
         text-align: left;
     }
     .pin{
