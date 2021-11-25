@@ -1,0 +1,142 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+    header{
+        background-color: #7FC798;
+        padding: 15px;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        float: left;
+        margin-left: 10px;
+        max-width: 100%;
+        height: 100px;
+    }
+    .title{
+        color: #0F2B38;
+        font-size: 1.1em;
+        margin: auto;
+    }
+    .motto{
+        color: #0F2B38;
+        font-size: 1em;
+        margin: auto;
+    }
+    .combined{
+        display: block;
+        margin-top: 10px;;
+    }
+    nav button{
+        background-color: #9AA0A5;
+        font-size: 2rem;
+        color: #0F2B38;
+        margin-top: 10px;
+    }
+    nav a {
+    background-color: #9AA0A5;
+    font-family: "Lato", sans-serif;
+}
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li a {
+        display: flex;
+        padding: .8rem 2%;
+        text-decoration: none;
+        color: #000;
+    }
+    nav ul li a:hover{
+        background-color: #242424;
+        color: #F1FDD8;
+    }
+    nav ul.hide{
+        display:none;
+    }
+    h1{
+        font-family: "Oswald", sans-serif;
+    }
+    h2{
+        font-family: "Lato", sans-serif;
+    }
+    p{
+        font-family: "Lato", sans-serif;
+    }
+    body {
+        background-color: #F1FDD8;
+        margin: 0;
+    }
+    fieldset{
+        background-color: #eee;
+        border: 1px solid #ccc;
+        padding: 30px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        
+    }
+    form{
+        display: block;
+        padding: 5px;
+    }
+    textarea{
+        width: 200px;
+        height: 250px;
+        padding: .1em;
+    }
+    input,
+    select{
+        border-radius: 10px;
+        max-width: 100%;
+        padding: 10px;
+    }
+    #date{
+        width: 240px;
+    }
+    #stormseverity, #stormregionlist{
+        width: 250px;
+    }
+    label{
+        font-size: 1.2em;
+    }
+    body {
+        background-color: #F1FDD8;
+        margin: 0;
+    }
+    footer{
+        background-color: #7FC798;
+        padding: 5px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .pin{
+        display: none;
+    }
+    .social{
+        display:none;
+    }
+    .contact{
+        padding: 5%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .date{
+        padding: 5px;
+        text-align: center;
+        color: #0F2B38;
+    }
+    /*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
