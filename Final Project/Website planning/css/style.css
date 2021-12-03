@@ -1,17 +1,20 @@
 
 h1{
     font-family: 'Titillium Web', sans-serif;
+    color: #00476d;
 }
 h2{
     font-family: 'Mochiy Pop One', sans-serif;
+    color: #00476d;
 }
 p {
     font-family: 'Mochiy Pop One', sans-serif;
+    color: #300b00;
 }
 header {
     text-align: center;
-    margin: 0;
     padding: 10px;
+    background-color: 	#ff8282;
 }
 body {
     background-color: 	#fff3ee;
@@ -24,30 +27,30 @@ img {
     width: 250px;
     height: 250px;
 }
-footer{
-    background-color: #02a7ff;
-    text-align: center;
-    padding: 10px;
-}
 nav li {
     display:inline;
 }
 nav {
     list-style:none;
-    padding: 0;
-    background-color: #02a7ff;
+    background-color:#02a7ff;
     text-align:center;
 }
 nav a{
     text-decoration: none;
-    font-size: 1.5em;
-    line-height: 1em;
-    text-align: center;
+    font-size: 1.3em;
+    line-height: .5em;
     display:inline-block;
     padding: 30px;
     color: #300b00;
+    font-family: 'Titillium Web', sans-serif;
 }
 a:hover{
 background-color: #00476d;
 color: #ff3c00;
+}
+footer{
+    background-color: #02a7ff;
+    text-align: center;
+    padding: 10px;
+    color: #a89089;
 }
