@@ -4,15 +4,17 @@
         <meta charset = "utf-8">
         <meta name = "viewport" content = "width=device-width, initial-scale-1">
         <title>Index</title>
+        <link rel = "stylesheet" href = "css/normalize.css">
         <link rel = "stylesheet" href = "css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Titillium+Web&display=swap" rel="stylesheet">
     </head>
     <body>
     <header>
-        <h1>Website Planning Document</h1>
+        <h1 class = "header">Website Planning Document</h1>
     </header>
-         <nav>
-            <ul>
+        <nav class = "clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id = "primaryNav" class = "hide">
             <li><a href = "index.html">Site's Purpose</a></li>
             <li><a href = "target-audience.html">Target Audience</a></li>
             <li><a href = "color-scheme.html">Color Scheme</a></li>
@@ -31,5 +33,6 @@
     <footer>
     <p>&copy; 2021 | Ruth Briz | Philippines</p>
     </footer>
+    <script src = "js/javascript.js"></script>
 </body>
 </html>
