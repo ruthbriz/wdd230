@@ -25,7 +25,7 @@ img {
     height: 250px;
 }
 footer{
-    background-color: #226081;
+    background-color: #02a7ff;
     text-align: center;
     padding: 10px;
 }
@@ -35,7 +35,7 @@ nav li {
 nav {
     list-style:none;
     padding: 0;
-    background-color: #226081;
+    background-color: #02a7ff;
     text-align:center;
 }
 nav a{
@@ -45,7 +45,9 @@ nav a{
     text-align: center;
     display:inline-block;
     padding: 30px;
+    color: #300b00;
 }
 a:hover{
-background-color: #CDC3E0;
+background-color: #00476d;
+color: #ff3c00;
 }
