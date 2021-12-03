@@ -4,7 +4,7 @@ h1{
     color: #00476d;
 }
 h2{
-    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     color: #00476d;
 }
 p {
@@ -42,7 +42,7 @@ nav a{
     display:inline-block;
     padding: 30px;
     color: #300b00;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Mochiy Pop One', sans-serif;
 }
 a:hover{
 background-color: #00476d;
