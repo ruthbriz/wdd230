@@ -58,7 +58,7 @@ nav {
         max-width: 100%;
     }
     .hero{
-        max-height: 20%;
+        height: 30px;
     }
     .events{
         color: black;
