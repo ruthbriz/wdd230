@@ -1,6 +1,7 @@
 header{
     padding: 30px;
     background-color: #0F2C67;
+    color: #F3950D;
 }
 .combined{
     color: #F3950D;
@@ -43,4 +44,28 @@ nav {
     body{
         margin: 0;
         background-color: #F4E185;
+    }
+    .body{
+        padding: 30px;
+    }
+    img {
+        max-width: 100%;
+    }
+    .hero{
+        height: 50%;
+    }
+    .events{
+        color: black;
+        font-size: .9em;
+        position: absolute;
+        margin-left: 15%;
+        padding: 1%;
+        border: 3px solid black;
+        width: 20%;
+        background-color: rgba(255, 211, 169, 0.75);
+    }
+    footer{
+        background: #0F2C67;
+        padding: 30px;
+        color: #F3950D;
     }
