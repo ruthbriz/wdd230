@@ -8,16 +8,4 @@ fetch(apiURL)
   document.getElementById('high').textContent = jsObject.main.temp;
   document.getElementById('humidity').textContent = jsObject.main.humidity;
 
-  document.querySelector(".closebtn").addEventListener("click", function () {
-    this.closest(".alert").remove();
-    });
-    
-  let high = document.getElementById('high');
-    if(high <= 79) {
-    const banner = document.querySelector("#banner")
-    banner.remove()
-    }
-    else{
-      banner.remove()
-    }
   });
