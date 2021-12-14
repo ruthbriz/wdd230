@@ -2,7 +2,9 @@
     .header{
         padding: 30px;
     }
-    
+    header{
+        background-color:#90F093;
+    }
     .logo{
         max-width: 100%;
         height: 10em;
@@ -10,11 +12,11 @@
         float: left;
     }
     .title{
-        color: #0F2B38;
+        color: #2D1DF0;
         font-size: 3em;
     }
     .motto{
-        color: #0F2B38;
+        color: #2D1DF0;
         justify-content: center;
         font-size: 2em;
     }
@@ -22,7 +24,7 @@
         display: none;
     }
     nav {
-    background-color: #9AA0A5;
+    background-image: linear-gradient( to bottom right, rgb(240, 175, 129,94), rgb(255, 214, 184));
     font-family: "Lato", sans-serif;
     }
     nav a {
@@ -50,30 +52,19 @@
     nav ul.hide{
         display:block;
     }
-    h1{
-        font-family: "Oswald", sans-serif;
+    h1, h2{
+        font-family: "Titillium Web", sans-serif;
     }
-    h2{
-        font-family: "Lato", sans-serif;
-    }
-    p, .article-paragraph{
-        font-family: "Lato", sans-serif;
+    p {
+        font-family: "Mochiy Pop One", sans-serif;
     }
     body {
-        background-color: #F1FDD8;
+        background-color: #F0DA65;
         margin: 0;
     }
-    .alert{
-        background-color: #c1e4f7;
-        padding: 10px;
-    }
-    .name{
-        padding: 5%;
-        margin-left: 5%;
-    }
-    .box-1{
+    .part-1{
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(5,5em);
         grid-template-rows: repeat(5, 1fr);
         grid-gap: 10px;
         margin: 0 auto;
@@ -82,99 +73,94 @@
         display: block;
         margin-right: auto;
         margin-left: auto;
-        width: 80%;
+        max-width: 100%;
         grid-column: 1/6;
         grid-row: 1/6;
     }
-    .summary{
+    .events{
         color: black;
         font-size: .9em;
         position: absolute;
-        margin-top: 10%;
         margin-left: 15%;
+        margin-top: 10%;
+        padding: 1%;
+        border: 3px solid black;
+        width: 25%;
+        background-color: rgba(240, 53, 136, 0.75);
+        grid-column: 2/5;
+        grid-row: 2/5;
+        color:#90F093;
+    }
+    .join{
+        color: black;
+        font-size: .9em;
+        position: absolute;
+        margin-top: 3%;
+        margin-left: 60%;
         padding: 1%;
         border: 3px solid black;
         width: 20%;
-        background-color: rgba(154, 160, 165, .75);
-        grid-column: 2/5;
-        grid-row: 2/5;
-    }
-    img {
-        max-width: 100%;
-    }
-    .article{
-        display: block;
-        padding: 5%;
-    }
-    .article-title{
-        padding: 10px;
-    }
-    .article-1{
-        padding: 10px;
-        border:3px solid black;
-        margin: 0;
-    }
-    .article-img{
-        margin-left: 15px;
-        margin-top: 1%;
-        float: right;
-        max-width: 100%;
-        height: 250px;
-    }
-    .article-paragraph{
-        column-count: 3;
-        column-width: 200px;
-        padding: 10px;
-    }
-    table{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        background-color: rgba(240, 53, 136, 0.75);
         text-align: center;
-        padding: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color:#9AA0A5;
+        grid-column: 3/6;
+        grid-row: 3/5;
+        color:#90F093;
     }
-    .five-weather{
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-    .weather-title{
-        display: block;
-    }
-    .townevents{
-        padding-left: 30%;
-        padding-right: 30%;
-        border-radius: 10px;
-    }
-    .event{
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        color: #89e7aa;
-    }
-    .town{
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        color: #89e7aa;
-    }
-    section{
-        background-color: #0D394E;
+    .part-2{
+        display: grid;
+        grid-template-columns: repeat(6, 0.3fr);
+        grid-gap: 10px;
         padding: 30px;
     }
+    .purpose{
+        grid-column: 1/4;
+        background-color: #F03588;
+        padding: 20px;
+        border-radius: 10px;
+        color:#90F093;
+    }
+    .weather{
+        background-color: #F03588;
+        grid-column: 5/7;
+        padding: 20px;
+        border-radius: 10px;
+        color:#90F093;
+    }
+    .business{
+        display: flex;
+        gap: 10px;
+        background-color: #F03588;
+        color:#90F093;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .image-1{
+        height: 150px;
+        max-width: 100%;
+        float: left;
+        padding: 10px;
+    }
+    .image-2{
+        height: 150px;
+        max-width: 100%;
+        float: left;
+        padding: 10px;
+    }
+    .image-3{
+        height: 150px;
+        max-width: 100%;
+        float: left;
+        padding: 10px;
+    }
     footer{
-        background-color: #7FC798;
+        background: #90F093;
+        padding: 30px;
+        color: #2D1DF0;
     }
     .contact{
         text-align: left;
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(5, 12em);
         grid-template-rows: repeat(3, 5fr);
         grid-gap: 10px;
     }
@@ -188,8 +174,12 @@
         display: flex;
         grid-gap: 15px;
     }
-    .link, .bottom{
+    .date, .bottom{
         text-align: center;
+        color: #2D1DF0;
+    }
+    .attribution, .byu{
+        color: #F03588;
     }
     .clearfix:after {
         content: "";
