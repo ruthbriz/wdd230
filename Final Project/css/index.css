@@ -1,3 +1,4 @@
+@media only screen and (min-width: 64rem) {
 h1, h2{
     font-family: "Titillium Web", sans-serif;
 }
@@ -126,19 +127,57 @@ nav {
     .purpose{
         grid-column: 1/4;
         background-color: #F03588;
-        padding: 10px;
+        padding: 20px;
         border-radius: 10px;
         color:#90F093;
     }
     .weather{
         background-color: #F03588;
         grid-column: 5/7;
-        padding: 10px;
+        padding: 20px;
         border-radius: 10px;
         color:#90F093;
     }
     .business{
         display: flex;
+        gap: 10px;
+        background-color: #F03588;
+        color:#90F093;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .image-1{
+        height: 150px;
+        max-width: 100%;
+        float: left;
+        padding: 10px;
+    }
+    .image-2{
+        height: 150px;
+        max-width: 100%;
+        float: left;
+        padding: 10px;
+    }
+    .image-3{
+        height: 150px;
+        max-width: 100%;
+        float: left;
+        padding: 10px;
+    }
+    .contact{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(5, 15em);
+        grid-template-rows: repeat(3, 3em);
+        grid-gap: 10px;
+    }
+    .list{
+        grid-column: 2/4;
+    }
+    .social{
+        display: flex;
+        grid-column: 4/6;
+        grid-row: 2;
     }
     .bottom{
         text-align: center;
@@ -152,3 +191,9 @@ nav {
         padding: 30px;
         color: #2D1DF0;
     }
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+}
