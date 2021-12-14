@@ -6,11 +6,10 @@ p{
 }
 header{
     padding: 30px;
-    background-color: #0F2C67;
-    color: #F3950D;
+    background-color:#90F093;
 }
 .combined{
-    color: #F3950D;
+    color: #2D1DF0;
     font-family: "Titillium Web", sans-serif;
 }
 .logo{
@@ -22,23 +21,29 @@ nav button{
     display: none;
 }
 nav {
-    background-color: #CD1818;
+    background-image: linear-gradient( rgba(240, 175, 129, 0), rgba(240, 175, 129,94));
     list-style:none;
-    text-align:center;
     text-decoration: none;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
     }
     nav li{
         list-style:none;
     }
     nav a {
         text-decoration: none;
-        color: #F3950D;
+        color: #2D1DF0;
         font-family: "Mochiy Pop One", sans-serif;
-        display:inline-block;
         padding:10px;
         float: none;
-        position: relative;
+    }
+    nav ul li{
+        float: left;
+    }
+    nav ul li a {
+        padding: .8em;
+        font-size: 1.5em;
     }
     nav ul li a:hover{
         background-color: #242424;
@@ -49,7 +54,7 @@ nav {
     }
     body{
         margin: 0;
-        background-color: #F4E185;
+        background-color: #F0DA65;
     }
     .body{
         padding: 30px;
