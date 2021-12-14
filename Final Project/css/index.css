@@ -32,18 +32,17 @@ nav button{
     display: none;
 }
 nav {
-    background-image: linear-gradient( to bottom right, rgb(240, 175, 129,94), rgb(255, 214, 184));
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
-nav li{
-        list-style:none;
+background-color: #9AA0A5;
+font-family: "Lato", sans-serif;
 }
 nav a {
+    display: flex;
     text-decoration: none;
-    color: #2D1DF0;
-    font-family: "Mochiy Pop One", sans-serif;
+    color: #226081;
+    font-family: "Lato", sans-serif;
+}
+nav ul{
+    margin-left: 15%;
 }
 nav ul li{
     float: left;
@@ -51,12 +50,14 @@ nav ul li{
 nav ul li a {
     padding: .8em;
     font-size: 1.5em;
+    display: flex;
+    justify-content: center;
 }
 nav ul li a:hover{
-    background-color: #F0AF81;
-    color: #F0DA65;
+    background-color: #242424;
+    color: #F1FDD8;
 }
-nav ul.hide {
+nav ul.hide{
     display:block;
 }
 body {
@@ -228,14 +229,14 @@ header{
     float: left;
 }
 nav button{
-    background-color: #7FC798;
-    border: none;
+    background-color: #9AA0A5;
     font-size: 2rem;
     color: #0F2B38;
     margin-top: 10px;
 }
 nav a {
-    background-image: linear-gradient( to bottom right, rgb(240, 175, 129,94), rgb(255, 214, 184));
+background-color: #9AA0A5;
+font-family: "Lato", sans-serif;
 }
 nav ul{
     list-style-type: none;
@@ -249,7 +250,7 @@ nav ul li a {
     color: #000;
 }
 nav ul li a:hover{
-    background-color: #9AA0A5;
+    background-color: #242424;
     color: #F1FDD8;
 }
 nav ul.hide{
