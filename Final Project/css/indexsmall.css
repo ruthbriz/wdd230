@@ -37,14 +37,6 @@ nav button{
     color: #0F2B38;
     margin-top: 10px;
 }
-nav {
-    background-image: linear-gradient( to bottom right, rgb(240, 175, 129,94), rgb(255, 214, 184));
-    list-style:none;
-    text-decoration: none;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    }
 nav a {
 background-color: #9AA0A5;
 font-family: "Lato", sans-serif;
