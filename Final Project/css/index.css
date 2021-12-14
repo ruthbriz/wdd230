@@ -11,6 +11,7 @@ header{
 .combined{
     color: #2D1DF0;
     font-family: "Titillium Web", sans-serif;
+    justify-content: center;
 }
 .logo{
     margin-left: 6%;
@@ -21,7 +22,7 @@ nav button{
     display: none;
 }
 nav {
-    background-image: linear-gradient( rgba(240, 175, 129, 0), rgba(240, 175, 129,94));
+    background-image: linear-gradient( to bottom right, rgb(240, 175, 129,94), rgb(255, 214, 184));
     list-style:none;
     text-decoration: none;
     overflow: hidden;
@@ -89,12 +90,12 @@ nav {
     .bottom{
         text-align: center;
     }
-    .attribution{
-        color: #CD1818;
+    .byu,.attribution{
+        color: #F03588;
         text-decoration: none;
     }
     footer{
-        background: #0F2C67;
+        background: #90F093;
         padding: 30px;
-        color: #F3950D;
+        color: #2D1DF0;
     }
