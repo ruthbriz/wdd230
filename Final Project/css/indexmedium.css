@@ -28,14 +28,14 @@
         margin-top: 10px;;
     }
     nav button{
-        background-color: #9AA0A5;
+        background-color: #F0AF81;
         font-size: 2rem;
-        color: #0F2B38;
+        color: #2D1DF0;
         margin-top: 10px;
     }
     nav a {
-    background-color: #9AA0A5;
-    font-family: "Lato", sans-serif;
+    background-image: linear-gradient( to bottom right, rgb(240, 175, 129,94), rgb(255, 214, 184));
+    font-family: "Mochiy Pop One", sans-serif;
 }
     nav ul{
         list-style-type: none;
@@ -46,11 +46,11 @@
         display: flex;
         padding: .8rem 2%;
         text-decoration: none;
-        color: #000;
+        color: #2D1DF0;
     }
     nav ul li a:hover{
-        background-color: #242424;
-        color: #F1FDD8;
+        background-color: #F0AF81;
+        color: #F0DA65;
     }
     nav ul.hide{
         display:none;
@@ -102,6 +102,7 @@
             color:#90F093;
         }
         .join{
+            display: block;
             color: black;
             font-size: .9em;
             position: absolute;
