@@ -103,31 +103,40 @@ main{
     padding: 5px;
 }
 .business{
-        display: block;
-        background-color: #F03588;
-        color:#90F093;
-        padding: 5px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:#90F093;
+    background-color: #F03588;
+    border-radius: 10px;
 }
 .image-1{
-   height: 50px;
-    width: 10px;
+   height: 50%;
+    max-width: 100%;
 }
 .paragraph-1{
-    font-size: 0.7em;
+    font-size: 1em;
 }
 .image-2{
-    height: 50px;
+    height: 50%;
     width: 10px;
 }
 .paragraph-2{
-    font-size: 0.7em;
+    font-size: 1em;
 }
 .image-3{
-    max-height: 10px;
+    height: 30%;
     width: 30px;
 }
 .paragraph-3{
-    font-size: 0.7em;
+    font-size: 1em;
+}
+.business img{
+    max-width: 100%;
+    height: 300px;
 }
 footer{
     background: #90F093;
