@@ -31,7 +31,7 @@
         text-align: center;
     }
     nav ul{
-        margin-left: 20%;
+        margin-left: 10%;
     }
     nav a {
         text-decoration: none;
@@ -149,7 +149,7 @@
             text-align: center;
             display: grid;
             grid-template-columns: repeat(3, 20em);
-            grid-template-rows: repeat(2, 0.1fr);
+            grid-template-rows: repeat(3, .1fr);
             grid-gap: 10px;
             border-radius: 10px;
             max-width: 100%;
