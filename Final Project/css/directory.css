@@ -95,6 +95,9 @@
     img{
         max-width: 100%;
     }
+    picture{
+        height: 200px;
+    }
         .contact{
             padding: 20px;
             display: grid;
