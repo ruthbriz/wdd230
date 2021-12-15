@@ -1,0 +1,105 @@
+/* For Smaller Screens*/
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+header{
+    background-color:#90F093;
+    padding: 15px;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    float: left;
+    margin-left: 10px;
+    max-width: 100%;
+    height: 100px;
+}
+.title{
+    color: #2D1DF0;
+    font-size: 1.1em;
+    margin: auto;
+    margin-left: 5%;
+}
+.motto{
+    color: #2D1DF0;
+    font-size: 1em;
+    margin: auto;
+}
+.combined{
+    display: block;
+    margin-top: 10px;;
+}
+nav button{
+    background-color: #F0AF81;
+    font-size: 2rem;
+    color: #2D1DF0;
+    margin-top: 10px;
+}
+nav a {
+background-image: linear-gradient( to bottom right, rgb(240, 175, 129,94), rgb(255, 214, 184));
+font-family: "Mochiy Pop One", sans-serif;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: flex;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #2D1DF0;
+}
+nav ul li a:hover{
+    background-color: #F0AF81;
+    color: #F0DA65;
+}
+nav ul.hide{
+    display:none;
+}
+h1, h2{
+    font-family: "Titillium Web", sans-serif;
+}
+p{
+    font-family: "Mochiy Pop One", sans-serif;
+}
+body {
+    margin: 0;
+    background-color: #F0DA65;
+}
+main{
+    padding: 20px;
+}
+footer{
+    background: #90F093;
+    padding: 5px;
+    color: #2D1DF0;
+    font-size: 0.7em;
+}
+.social{
+    display:none;
+}
+.contact{
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.date, .bottom{
+    text-align: center;
+}
+.attribution,.byu{
+    color: #F03588;
+    text-decoration: none;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
