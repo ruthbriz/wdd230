@@ -1,0 +1,66 @@
+"towns": [
+    {
+      "name": "Jmacks Resort Hotel",
+      "logo": "jmacks.jpg",
+      "website": "https://www.facebook.com/Jmacksgardeneventsplace",
+      "contact": [
+        "09479803263",
+        "(075) 636-8479",
+        "Jmackseventsplace@yahoo.com"
+      ]
+    },
+    {
+        "name": "T. Montemayor Plant Nursery",
+        "logo": "montemayor.jpg",
+        "website": "https://www.facebook.com/tmontemayorplantnursery/",
+        "contact": [
+          "0922 700 8987"
+        ]
+    },
+    {
+        "name": "J.B. Cabinta Bricks",
+        "logo": "cabinta.jpg",
+        "website": "https://cabintabricks.wordpress.com/?fbclid=IwAR3Be4I_Y1ZuhVeDYsT03wrKx1dtEc3U9RoEY8YECCYIDke7wjM4gJfR8nI",
+        "contact": [
+          "cabintajoselito@gmail.com",
+          "https://www.facebook.com/cabintabricks/?ref=page_internal"
+        ]
+    },
+    {
+        "name": "Sta. Barbara Gourmet",
+        "logo": "SB_gourmet.png",
+        "website": "http://sta-barbara-gourmet.com/",
+        "contact": [
+          "0925 791 5854",
+          "hello@sta-barbara-gourmet.com",
+          "https://www.facebook.com/StaBarbaraGourmet/"
+        ]
+    },
+    {
+        "name": "Mafe's CupsnCakes",
+        "logo": "mafescupsncake.jpg",
+        "website": "https://www.facebook.com/Mafes-CupsnCakes-107391957785793",
+        "contact": [
+          "0967 358 7929"
+        ]
+    },
+    {
+        "name": "Tori Takoyaki",
+        "logo": "tori_takoyaki.jpg",
+        "website": "https://www.facebook.com/Tori-Takoyaki-Sta-Barbara-Poblacion-Sur-107643828060510",
+        "contact": [
+          "0921 863 4678"
+        ]
+    },
+    {
+        "name": "Nutridense Food Manufacturing Corporation",
+        "logo": "nutridense.jpg",
+        "website": "https://www.nutridensefmc.com/",
+        "contact": [
+          "https://www.facebook.com/NutridenseFoodMfgCorp/?ref=page_internal",
+          "0905 411 4324",
+          "nutridensefmc@yahoo.com.ph"
+        ]
+    }
+  ]
+}
