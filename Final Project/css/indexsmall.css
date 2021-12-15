@@ -74,7 +74,7 @@ main{
 }
 .hero{
     display: block;
-    max-width: 100%;
+    max-width: 100px;
     padding: 5px;
     margin-right: auto;
     margin-left: auto;
