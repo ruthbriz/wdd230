@@ -13,6 +13,7 @@
         color: #2D1DF0;
         font-size: 3em;
         font-family: "Titillium Web", sans-serif;
+        margin-left: 5%;
     }
     .motto{
         color: #2D1DF0;
@@ -37,9 +38,6 @@
         color: #2D1DF0;
         font-family: "Mochiy Pop One", sans-serif;
         background-image: none;
-    }
-    nav ul{
-        justify-content: center;
     }
     nav ul li{
         float: left;
@@ -171,12 +169,12 @@
         .contact{
             padding: 20px;
             display: grid;
-            grid-template-columns: repeat(5, 12em);
+            grid-template-columns: repeat(5, 10em);
             grid-template-rows: repeat(3, 1em);
             grid-gap: 10px;
         }
         .list{
-            grid-column: 2/4;
+            grid-column: 1/4;
         }
         .social{
             display: flex;
@@ -195,6 +193,7 @@
             background: #90F093;
             padding: 30px;
             color: #2D1DF0;
+            font-size: 1em;
         }
         .clearfix:after {
             content: "";
