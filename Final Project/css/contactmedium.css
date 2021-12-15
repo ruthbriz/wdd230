@@ -1,0 +1,129 @@
+@media only screen and (min-width: 600px) {
+    header{
+        padding: 30px;
+        background-color:#90F093;
+    }
+    .logo{
+        max-width: 100%;
+        height: 10em;
+        margin-left: 6%;
+        float: left;
+    }
+    .title{
+        color: #2D1DF0;
+        font-size: 3em;
+        font-family: "Titillium Web", sans-serif;
+        margin-left: 5%;
+    }
+    .motto{
+        color: #2D1DF0;
+        justify-content: center;
+        font-size: 2em;
+        font-family: "Mochiy Pop One", sans-serif;
+    }
+    nav button{
+        background-color: #F0AF81;
+        font-size: 2rem;
+        color: #2D1DF0;
+        margin-top: 10px;
+    }
+    nav a {
+    background-image: linear-gradient( to bottom right, rgb(240, 175, 129,94), rgb(255, 214, 184));
+    font-family: "Mochiy Pop One", sans-serif;
+    }
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li a {
+        display: flex;
+        padding: .8rem 2%;
+        text-decoration: none;
+        color: #2D1DF0;
+    }
+    nav ul li a:hover{
+        background-color: #F0AF81;
+        color: #F0DA65;
+    }
+    nav ul.hide{
+        display:none;
+    }
+    h1, h2 {
+        font-family: "Titillium Web", sans-serif;
+    }
+    p, label {
+        font-family: "Mochiy Pop One", sans-serif;
+    }
+    body {
+        margin: 0;
+        background-color: #F0DA65;
+    }
+    main{
+            padding: 30px;
+    }
+    .part-1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    iframe{
+        padding: 10px;
+    }
+    fieldset{
+        background-color: #F03588;
+        color: #90F093;
+        border-radius: 10px;
+        height: 440px;
+        padding: 10px;
+    }
+    textarea{
+        width: 250px;
+        height: 100px;
+        padding: .1em;
+    }
+    input{
+        border-radius: 10px;
+        max-width: 100%;
+        padding: 10px;
+    }
+    .board{
+        background-color: #F03588;
+        color: #90F093;
+        border-radius: 10px;
+        padding: 10px;
+    }
+        .contact{
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(5, 10em);
+            grid-template-rows: repeat(3, 1em);
+            grid-gap: 10px;
+        }
+        .list{
+            grid-column: 1/4;
+        }
+        .social{
+            display: flex;
+            grid-column: 4/6;
+            grid-row: 2;
+            gap: 10px;
+        }
+        .bottom, .date{
+            text-align: center;
+        }
+        .byu,.attribution{
+            color: #F03588;
+            text-decoration: none;
+        }
+        footer{
+            background: #90F093;
+            padding: 30px;
+            color: #2D1DF0;
+            font-size: 1em;
+        }
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+    }
