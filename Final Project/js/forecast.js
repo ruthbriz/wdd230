@@ -6,8 +6,8 @@ fetch(forecast)
 
   const daynames = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   const one = new Date(jsObject.list[0].dt_txt);
-  const two = new Date(jsObject.list[4].dt_txt);
-  const three = new Date(jsObject.list[12].dt_txt);
+  const two = new Date(jsObject.list[8].dt_txt);
+  const three = new Date(jsObject.list[16].dt_txt);
 
   const dateone = daynames[one.getDay()];
   const datetwo = daynames[two.getDay()];
@@ -19,12 +19,12 @@ fetch(forecast)
   document.getElementById('weather1').setAttribute('src', weather1);
 
   document.getElementById('tue').textContent = datetwo;
-  document.getElementById('day2').textContent = jsObject.list[4].main.temp;
+  document.getElementById('day2').textContent = jsObject.list[8].main.temp;
   const weather2 = 'https://openweathermap.org/img/wn/' + jsObject.list[4].weather[0].icon + '@2x.png';
   document.getElementById('weather2').setAttribute('src', weather2);
 
   document.getElementById('wed').textContent = datethree;
-  document.getElementById('day3').textContent = jsObject.list[12].main.temp;
-  const weather3 = 'https://openweathermap.org/img/wn/' + jsObject.list[12].weather[0].icon + '@2x.png';
+  document.getElementById('day3').textContent = jsObject.list[16].main.temp;
+  const weather3 = 'https://openweathermap.org/img/wn/' + jsObject.list[16].weather[0].icon + '@2x.png';
   document.getElementById('weather3').setAttribute('src', weather3);
   });
