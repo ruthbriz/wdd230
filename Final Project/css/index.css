@@ -27,9 +27,12 @@
         background-image: linear-gradient( to bottom right, rgb(240, 175, 129,94), rgb(255, 214, 184));
         font-family: "Mochiy Pop One", sans-serif;
         text-decoration: none;
+        text-align: center;
+    }
+    nav ul{
+        margin-left: 20%;
     }
     nav a {
-        display: flex;
         text-decoration: none;
         color: #2D1DF0;
         font-family: "Mochiy Pop One", sans-serif;
@@ -168,7 +171,7 @@
         .contact{
             padding: 20px;
             display: grid;
-            grid-template-columns: repeat(5, 13em);
+            grid-template-columns: repeat(5, 12em);
             grid-template-rows: repeat(3, 1em);
             grid-gap: 10px;
         }
