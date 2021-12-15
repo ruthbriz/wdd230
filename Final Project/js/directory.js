@@ -19,7 +19,7 @@ for (let i = 0; i < businesses.length; i++ ) {
     h2.textContent = businesses[i].name;
     website.textContent = 'Website'+ ': ' + businesses[i].website;
     contact.textContent = 'Contact' + ': ' + businesses[i].contact;
-    image.setAttribute('src', prophets[i].imageurl);
+    image.setAttribute('src', businesses[i].imageurl);
     
     card.appendChild(h2);
     card.appendChild(website);
