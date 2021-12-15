@@ -71,38 +71,40 @@
         border-radius: 20px;
     }
     .business{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: .1fr .1fr .1fr .1fr;
-        grid-gap: 10px;
-        padding: 10px;
+        display: block;
+        margin: auto;
+        padding: 20px;
+        background-color: #F03588;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     img{
         max-width: 100%;
-    }
-    picture{
-        height: 100px;
-    }
+        }
+        picture img{
+        height: 300px;
+        }
     .jmacks{
-        display: block;
+
     }
     .nursery{
-        display: block;
+
     }
     .bricks{
-        display: block;
+
     }
     .gourmet{
-        display: block;
+
     }
     .bakery{
-        display: block;
+
     }
     .takoyaki{
-        display: block;
+
     }
     .food{
-        display: block;
+
     }
         .contact{
             padding: 20px;
