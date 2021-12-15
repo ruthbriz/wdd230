@@ -63,6 +63,36 @@
                                         <p>Temperature: <span id = "current"></span></p>
                                         <p>Condition: <span id = "high"></span>°F</p>
                                         <p>Humidity: <span id = "humidity"></span>%</p>
+                                        <br>
+                                        <table>
+                                            <tr>
+                                                <th><p><span id = "mon"></span></p></th>
+                                                <th><p><span id = "tue"></span></p></th>
+                                                <th><p><span id = "wed"></span></p></th>
+                                            </tr>
+                                            <tr>
+                                            <th>
+                                                <p><span id = "day1"></span>°F</p>
+                                                <br>
+                                                <picture>
+                                                <img id = "weather1" class = "weather-1" src = "images/placeholder.jpg" alt = "weather forecast">
+                                                </picture>
+                                            </th>
+                                            <th>
+                                                <p><span id = "day2"></span>°F</p>
+                                                <br>
+                                                <picture>
+                                                <img id = "weather2" class = "weather-2" src = "images/placeholder.jpg" alt = "weather forecast">
+                                            </picture>
+                                            <th>
+                                                <p><span id = "day3"></span>°F</p>
+                                                <br>
+                                                <picture>
+                                                <img id = "weather3" class = "weather-3" src = "images/placeholder.jpg" alt = "weather forecast">
+                                                </picture>
+                                            </th>
+                                            </tr>
+                                    </table>
                                     </div>
                             </div>
                             <br>
@@ -129,8 +159,7 @@
                     </script>
                     <script src = "js/lazyload.js"></script>
                     <script src = "js/localstorage.js"></script>
-                        <script src = "js/prestonevent.js" defer></script>
-                        <script src = "js/prestonweather.js" defer></script>
-                        <script src = "js/weatherforecast.js" defer></script>
+                        <script src = "js/weather.js" defer></script>
+                        <script src = "js/forecast.js" defer></script>
                     </body>
                 </html>
