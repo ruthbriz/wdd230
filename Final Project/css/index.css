@@ -140,40 +140,48 @@
             border-radius: 10px;
             color:#90F093;
         }
+        .business img{
+            max-width: 100%;
+        }
         .business{
-            display: flex;
-            background-color: #F03588;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            display: grid;
+            grid-template-columns: repeat(3, 20em);
+            grid-template-rows: repeat(2, 0.1fr);
+            grid-gap: 10px;
             color:#90F093;
-            padding: 20px;
             border-radius: 10px;
+            max-width: 100%;
+            background-color: #F03588;
         }
         .image-1{
-            height: 150px;
-            width: 170px;
-            float: left;
-            padding: 10px;
-            margin-right: 5px;
+            grid-column: 1;
+            grid-row: 1/5;
         }
         .paragraph-1{
-            font-size: 0.8em;
+            grid-column: 1;
+            grid-row: 4/5;
         }
         .image-2{
-            height: 150px;
-            width: 170px;
-            float: left;
-            margin-right: 5px;
+            grid-column: 2;
+            grid-row: 1/5;
         }
         .paragraph-2{
-            font-size: 0.8em;
+            grid-column: 2;
+            grid-row: 4/5;
         }
         .image-3{
-            height: 150px;
-            width: 170px;
-            float: left;
-            margin-right: 5px;
+            grid-column: 3;
+            grid-row: 1/5;
         }
         .paragraph-3{
-            font-size: 0.8em;
+            grid-column: 3;
+            grid-row: 4/5;
+        }
+        .number{
+            text-align: center;
         }
         .contact{
             padding: 20px;
