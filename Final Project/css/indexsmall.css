@@ -21,6 +21,7 @@ header{
     color: #2D1DF0;
     font-size: 1.1em;
     margin: auto;
+    margin-left: 5%;
 }
 .motto{
     color: #2D1DF0;
@@ -74,10 +75,8 @@ main{
 }
 .hero{
     display: block;
-    max-width: 100px;
+    max-width: 100%;
     padding: 5px;
-    margin-right: auto;
-    margin-left: auto;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -128,6 +127,7 @@ footer{
     background: #90F093;
     padding: 5px;
     color: #2D1DF0;
+    font-size: 0.7em;
 }
 .social{
     display:none;
