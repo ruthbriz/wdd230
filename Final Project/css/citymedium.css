@@ -69,30 +69,143 @@
     main{
             padding: 30px;
     }
-
-    .image-1{
+    .part-1{
+        display: block;
+    }
+    .part-1 img{
+        height: 300px;
+    }
+    .hall{
+        float: left;
+        margin-right: 3%;
+    }
+    .paragraph-1{
+        color: #90F093;
+        background-color: #F03588;
+        line-height: 2em;
+        font-size: 1em;
+    }
+    .part-2{
+        display: block;
+    }
+    .part-2 img{
+        height: 300px;
+    }
+    .title-1{
+    font-size: 2em;
+    }
+    .daniel{
+        float: right;
+        margin-left: 3%;
+    }
+    .paragraph-2{
+        color: #90F093;
+        background-color: #F03588;
+        line-height: 2em;
+        font-size: 1em;
+    }
+    .part-3{
+        display: block;
+    }
+    .part-3 img{
+        height: 300px;
+    }
+    .title-2{
+        font-size: 2em;
+    }
+    .school{
+        float: left;
+        margin-right: 3%;
+    }
+    .paragraph-3{
+        color: #90F093;
+        background-color: #F03588;
+        line-height: 2em;
+        font-size: 1em;
+    }
+    .part-4 img{
+        height: 300px;
+    }
+    .part-4{
+        color: #90F093;
+        background-color: #F03588;
+        padding: 20px;
+        display: block;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .title-3{
         grid-column: 1;
         grid-row: 1;
+    }
+    .image-product-1{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .paragraph-4{
+        grid-column: 3;
+        grid-row: 2;
+    }
+    .title-4{
+        grid-column: 3;
+        grid-row: 1;
+    }
+    .image-product-2{
+        grid-column: 3;
+        grid-row: 2;
+    }
+    .paragraph-5{
+        grid-column: 4;
+        grid-row: 2;
+    }
+    .part-5 img{
+        width: 250px;
+        height: 200px;
+    }
+    figcaption{
+        font-family: "Mochiy Pop One", sans-serif;
+    }
+    .part-5{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 5px;
+        margin: auto;
+        background-color: #F03588;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .title-5{
+        grid-column: 1/5;
+        grid-row: 1;
+    }
+    .image-1{
+        grid-column: 1;
+        grid-row: 2;
     }
     .image-2{
         grid-column: 2;
-        grid-row: 1;
+        grid-row: 2;
     }
     .image-3{
-        grid-column: 3;
-        grid-row: 1;
+        grid-column: 1;
+        grid-row: 3;
     }
     .image-4{
-        grid-column: 1;
-        grid-row: 2;
+        grid-column: 2;
+        grid-row: 3;
     }
     .image-5{
-        grid-column: 2;
-        grid-row: 2;
+        grid-column: 1;
+        grid-row: 4;
     }
     .image-6{
-        grid-column: 3;
-        grid-row: 2;
+        grid-column: 2;
+        grid-row: 4;
     }
         .contact{
             padding: 20px;
