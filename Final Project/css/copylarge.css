@@ -29,13 +29,16 @@
         text-decoration: none;
     }
     nav a {
-        display: flex;
+        display: inline-block;
         text-decoration: none;
         color: #2D1DF0;
         font-family: "Mochiy Pop One", sans-serif;
     }
+    nav li{
+        display: inline;
+    }
     nav ul{
-        justify-content: center;
+        margin-left: 15%;
     }
     nav ul li{
         float: left;
