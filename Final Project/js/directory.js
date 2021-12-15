@@ -6,8 +6,7 @@ fetch(data)
 })
 .then(function (jsonObject){
     console.table(jsonObject);
-
-const businesses = jsonObject['businesses'];
+    const businesses = jsonObject['businesses'];
 
 for (let i = 0; i < businesses.length; i++ ) {
 
@@ -15,7 +14,7 @@ for (let i = 0; i < businesses.length; i++ ) {
     let h2 = document.createElement('h2');
     let website = document.createElement('p');
     let contact = document.createElement('p');
-    let logo = document.createElement('img');
+    let image = document.createElement('img');
     
     h2.textContent = businesses[i].name;
     website.textContent = 'Website'+ ': ' + businesses[i].website;
