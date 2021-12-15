@@ -8,7 +8,7 @@ fetch(data)
     console.table(jsonObject);
     const businesses = jsonObject['businesses'];
 
-for (let i = 0; i < 1; i++ ) {
+for (let i = 0; i < businesses.length; i++ ) {
 
     let business = document.createElement('section');
     let name = document.createElement('h2');
