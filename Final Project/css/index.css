@@ -142,7 +142,6 @@
         }
         .business{
             display: flex;
-            gap: 10px;
             background-color: #F03588;
             color:#90F093;
             padding: 20px;
@@ -150,21 +149,31 @@
         }
         .image-1{
             height: 150px;
-            max-width: 100%;
+            width: 170px;
             float: left;
             padding: 10px;
+            margin-right: 5px;
+        }
+        .paragraph-1{
+            font-size: 0.8em;
         }
         .image-2{
             height: 150px;
-            max-width: 100%;
+            width: 170px;
             float: left;
-            padding: 10px;
+            margin-right: 5px;
+        }
+        .paragraph-2{
+            font-size: 0.8em;
         }
         .image-3{
             height: 150px;
-            max-width: 100%;
+            width: 170px;
             float: left;
-            padding: 10px;
+            margin-right: 5px;
+        }
+        .paragraph-3{
+            font-size: 0.8em;
         }
         .contact{
             padding: 20px;
