@@ -109,19 +109,25 @@ main{
         padding: 5px;
 }
 .image-1{
-    height: 100px;
-    max-width: 100%;
-    padding: 5px;
+   height: 50px;
+    width: 10px;
+}
+.paragraph-1{
+    font-size: 0.7em;
 }
 .image-2{
-    height: 100px;
-    max-width: 100%;
-    padding: 5px;
+    height: 50px;
+    width: 10px;
+}
+.paragraph-2{
+    font-size: 0.7em;
 }
 .image-3{
-    height: 100px;
-    max-width: 100%;
-    padding: 5px;
+    max-height: 10px;
+    width: 30px;
+}
+.paragraph-3{
+    font-size: 0.7em;
 }
 footer{
     background: #90F093;
