@@ -75,7 +75,6 @@
             max-width: 100%;
     }
     section{
-        background-color: #F03588;
         padding: 20px;
         margin: 0;
         border-radius: 20px;
@@ -84,16 +83,14 @@
         max-width: 100%;
     }
     picture img{
-        height: 200px;
+        height: 150px;
     }
     .business{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
         display: grid;
-        grid-template-columns: repeat(3, 25em);
+        grid-template-columns: repeat(3, 20em);
         grid-template-rows: 1fr , 1fr, 1fr;
-        grid-gap: 20px;
+        grid-gap: 5px;
+        background-color: #F03588;
     }
 
     .jmacks{
