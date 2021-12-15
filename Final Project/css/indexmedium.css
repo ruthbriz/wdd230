@@ -138,43 +138,43 @@
             border-radius: 10px;
             color:#90F093;
         }
+        .business img{
+            max-width: 100%;
+        }
         .business{
-            display: flex;
-            gap: 10px;
-            background-color: #F03588;
-            color:#90F093;
+            display: block;
+            margin: auto;
             padding: 20px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            color:#90F093;
+            background-color: #F03588;
             border-radius: 10px;
         }
         .image-1{
-            height: 150px;
-            width: 100px;
-            float: left;
-            padding: 10px;
-            margin-right: 5px;
+            grid-column: 1;
+            grid-row: 1;
         }
         .paragraph-1{
-            font-size: 0.5em;
+            grid-column: 1;
+            grid-row: 1;
         }
         .image-2{
-            height: 150px;
-            width: 100px;
-            float: left;
-            padding: 10px;
-            margin-right: 5px;
+            grid-column: 2;
+            grid-row: 2;
         }
         .paragraph-2{
-            font-size: 0.5em;
+            grid-column: 2;
+            grid-row: 2;
         }
         .image-3{
-            height: 150px;
-            width: 100px;
-            float: left;
-            padding: 10px;
-            margin-right: 5px;
+            grid-column: 3;
+            grid-row: 3;
         }
         .paragraph-3{
-            font-size: 0.5em;
+            grid-column: 3;
+            grid-row: 3;
         }
         .contact{
             padding: 20px;
