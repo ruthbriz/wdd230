@@ -71,6 +71,14 @@
     main{
             padding: 30px;
     }
+    .part-1{
+        background-color: #F03588;
+        padding: 10px;
+    }
+    .hall{
+        float: left;
+        margin-right: 5%;
+    }
         .contact{
             padding: 20px;
             display: grid;
