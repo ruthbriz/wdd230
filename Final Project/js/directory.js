@@ -10,6 +10,8 @@ fetch(data)
 
 for (let i = 0; i < 1; i++ ) {
 
+    //first business
+
     let jmacks = document.createElement('section');
     let jmacksname = document.createElement('h2');
     let jmackswebsite = document.createElement('p');
@@ -31,6 +33,8 @@ for (let i = 0; i < 1; i++ ) {
     
     document.querySelector('div.jmacks').appendChild(jmacks);
 
+// second business
+
     let nursery = document.createElement('section');
     let nurseryname = document.createElement('h2');
     let nurserywebsite = document.createElement('p');
@@ -45,6 +49,8 @@ for (let i = 0; i < 1; i++ ) {
     nursery.appendChild(nurserycontactone);
     
     document.querySelector('div.nursery').appendChild(nursery);
+
+//third business
 
     let bricks = document.createElement('section');
     let bricksname = document.createElement('h2');
@@ -63,6 +69,8 @@ for (let i = 0; i < 1; i++ ) {
     bricks.appendChild(brickscontacttwo);
     
     document.querySelector('div.bricks').appendChild(bricks);
+
+//fourth business
 
     let gourmet = document.createElement('section');
     let gourmetname = document.createElement('h2');
@@ -84,5 +92,62 @@ for (let i = 0; i < 1; i++ ) {
     gourmet.appendChild(gourmetcontactthree);
     
     document.querySelector('div.gourmet').appendChild(gourmet);
+
+//fifth business
+
+    let bakery = document.createElement('section');
+    let bakeryname = document.createElement('h2');
+    let bakerywebsite = document.createElement('p');
+    let bakerycontactone = document.createElement('p');
+    
+    bakeryname.textContent = businesses[4].name;
+    bakerywebsite.textContent = 'Website'+ ': ' + businesses[4].website;
+    bakerycontactone.textContent = 'Phone' + ': ' + businesses[4].contact;
+    
+    bakery.appendChild(bakeryname);
+    bakery.appendChild(bakerywebsite);
+    bakery.appendChild(bakerycontactone);
+    
+    document.querySelector('div.bakery').appendChild(bakery);
+
+    //sixth business
+
+    let takoyaki = document.createElement('section');
+    let takoyakiname = document.createElement('h2');
+    let takoyakiwebsite = document.createElement('p');
+    let takoyakicontactone = document.createElement('p');
+    
+    takoyakiname.textContent = businesses[5].name;
+    takoyakiwebsite.textContent = 'Website'+ ': ' + businesses[5].website;
+    takoyakicontactone.textContent = 'Phone' + ': ' + businesses[5].contact;
+    
+    takoyaki.appendChild(takoyakiname);
+    takoyaki.appendChild(takoyakiwebsite);
+    takoyaki.appendChild(takoyakicontactone);
+    
+    document.querySelector('div.takoyaki').appendChild(takoyaki);
+
+    //seventh business
+
+    let food = document.createElement('section');
+    let foodname = document.createElement('h2');
+    let foodwebsite = document.createElement('p');
+    let foodcontactone = document.createElement('p');
+    let foodcontacttwo = document.createElement('p');
+    let foodcontactthree = document.createElement('p');
+    
+    foodname.textContent = businesses[6].name;
+    foodwebsite.textContent = 'Website'+ ': ' + businesses[6].website;
+    foodcontactone.textContent = 'Facebook' + ': ' + businesses[6].contact[0];
+    foodcontacttwo.textContent = 'Phone' + ': ' + businesses[6].contact[1];
+    foodcontactthree.textContent = 'Email' + ': ' + businesses[6].contact[2];
+    
+    food.appendChild(foodname);
+    food.appendChild(foodwebsite);
+    food.appendChild(foodcontactone);
+    food.appendChild(foodcontacttwo);
+    food.appendChild(foodcontactthree);
+    
+    document.querySelector('div.food').appendChild(food);
     }
     });
