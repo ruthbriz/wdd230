@@ -33,6 +33,7 @@
         text-decoration: none;
         color: #2D1DF0;
         font-family: "Mochiy Pop One", sans-serif;
+        background-image: none;
     }
     nav ul{
         justify-content: center;
@@ -103,6 +104,7 @@
             color:#90F093;
         }
         .join{
+            display: block;
             color: black;
             font-size: .9em;
             position: absolute;
