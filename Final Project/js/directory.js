@@ -39,14 +39,20 @@ for (let i = 0; i < 1; i++ ) {
     let nurseryname = document.createElement('h2');
     let nurserywebsite = document.createElement('p');
     let nurserycontactone = document.createElement('p');
+    let nurserycontacttwo = document.createElement('p');
+    let nurserycontactthree = document.createElement('p');
     
     nurseryname.textContent = businesses[1].name;
     nurserywebsite.textContent = 'Website'+ ': ' + businesses[1].website;
-    nurserycontactone.textContent = 'Phone' + ': ' + businesses[1].contact;
+    nurserycontactone.textContent = 'Phone' + ': ' + businesses[1].contact[1];
+    nurserycontacttwo.textContent = 'Telephone' + ': ' + businesses[0].contact[2];
+    nurserycontactthree.textContent = 'Email' + ': ' + businesses[0].contact[3];
     
     nursery.appendChild(nurseryname);
     nursery.appendChild(nurserywebsite);
     nursery.appendChild(nurserycontactone);
+    nursery.appendChild(nurserycontacttwo);
+    nursery.appendChild(nurserycontactthree);
     
     document.querySelector('div.nursery').appendChild(nursery);
 
@@ -57,16 +63,19 @@ for (let i = 0; i < 1; i++ ) {
     let brickswebsite = document.createElement('p');
     let brickscontactone = document.createElement('p');
     let brickscontacttwo = document.createElement('p');
+    let brickscontactthree = document.createElement('p');
     
     bricksname.textContent = businesses[2].name;
     brickswebsite.textContent = 'Website'+ ': ' + businesses[2].website;
     brickscontactone.textContent = 'Email' + ': ' + businesses[2].contact[0];
     brickscontacttwo.textContent = 'Facebook' + ': ' + businesses[2].contact[1];
+    brickscontactthree.textContent = 'Phone' + ': ' + businesses[0].contact[2];
     
     bricks.appendChild(bricksname);
     bricks.appendChild(brickswebsite);
     bricks.appendChild(brickscontactone);
     bricks.appendChild(brickscontacttwo);
+    bricks.appendChild(brickscontactthree);
     
     document.querySelector('div.bricks').appendChild(bricks);
 
@@ -99,14 +108,20 @@ for (let i = 0; i < 1; i++ ) {
     let bakeryname = document.createElement('h2');
     let bakerywebsite = document.createElement('p');
     let bakerycontactone = document.createElement('p');
+    let bakerycontacttwo = document.createElement('p');
+    let bakerycontactthree = document.createElement('p');
     
     bakeryname.textContent = businesses[4].name;
     bakerywebsite.textContent = 'Website'+ ': ' + businesses[4].website;
-    bakerycontactone.textContent = 'Phone' + ': ' + businesses[4].contact;
+    bakerycontactone.textContent = 'Phone' + ': ' + businesses[4].contact[0];
+    bakerycontacttwo.textContent = 'Email' + ': ' + businesses[4].contact[1];
+    bakerycontactthree.textContent = 'Telephone' + ': ' + businesses[4].contact[2];
     
     bakery.appendChild(bakeryname);
     bakery.appendChild(bakerywebsite);
     bakery.appendChild(bakerycontactone);
+    bakery.appendChild(bakerycontacttwo);
+    bakery.appendChild(bakerycontactthree);
     
     document.querySelector('div.bakery').appendChild(bakery);
 
@@ -116,10 +131,14 @@ for (let i = 0; i < 1; i++ ) {
     let takoyakiname = document.createElement('h2');
     let takoyakiwebsite = document.createElement('p');
     let takoyakicontactone = document.createElement('p');
+    let takoyakicontacttwo = document.createElement('p');
+    let takoyakicontactthree = document.createElement('p');
     
     takoyakiname.textContent = businesses[5].name;
     takoyakiwebsite.textContent = 'Website'+ ': ' + businesses[5].website;
-    takoyakicontactone.textContent = 'Phone' + ': ' + businesses[5].contact;
+    takoyakicontactone.textContent = 'Phone' + ': ' + businesses[5].contact[0];
+    takoyakicontacttwo.textContent = 'Email' + ': ' + businesses[4].contact[1];
+    takoyakicontactthree.textContent = 'Telephone' + ': ' + businesses[4].contact[2];
     
     takoyaki.appendChild(takoyakiname);
     takoyaki.appendChild(takoyakiwebsite);
