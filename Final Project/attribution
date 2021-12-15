@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+                <html lang = "en-us">
+                    <head>
+                        <meta charset = "utf-8">
+                        <meta name = "viewport" content = "width=device-width, initial-scale-1">
+                        <title>Attribution</title>
+                        <link rel = "stylesheet" href = "css/normalize.css">
+                        <link rel = "stylesheet" href = "css/indexsmall.css">
+                        <link rel = "stylesheet" href = "css/indexmedium.css">
+                        <link rel = "stylesheet" href = "css/index.css">
+                        <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Titillium+Web&display=swap" rel="stylesheet">
+                    </head>
+                    <body>
+                        <h2>All pictures, informations, and more are used by the following websites</h2>
+                        <a href = "https://www.facebook.com/cabintabricks/">https://www.facebook.com/cabintabricks/</a>
+                        <a href = "https://www.facebook.com/Jmacksgardeneventsplace">https://www.facebook.com/Jmacksgardeneventsplace</a>
+                        <a href = "https://www.facebook.com/cabintabricks/">https://www.facebook.com/StaBarbaraGourmet/</a>
+                        <a href = "https://www.facebook.com/Jmacksgardeneventsplace">https://www.facebook.com/Jmacksgardeneventsplace</a>
+                    </body>
+                </html>
