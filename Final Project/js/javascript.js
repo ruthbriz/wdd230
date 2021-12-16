@@ -10,13 +10,3 @@ const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("currentdate").textContent = fulldate;
-
-document.querySelector(".closebtn").addEventListener("click", function () {
-	this.closest(".alert").remove();
-  });
-  
-let current = document.querySelector('current');
-  if(current == 'Clouds') {
-	const banner = document.querySelector("#banner")
-	banner.remove()
-  }
