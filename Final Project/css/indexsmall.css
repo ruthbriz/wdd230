@@ -92,15 +92,15 @@ main{
 }
 .purpose{
     display: block;
-    background-color: #F03588;
-    color: #F0DA65;
     padding: 5px;
+    color: #F0DA65;
+    background-color: rgba(240, 53, 136, 0.75);
 }
 .weather{
     display: block;
-    background-color: #F03588;
-    color: #F0DA65;
     padding: 5px;
+    color: #F0DA65;
+    background-color: rgba(240, 53, 136, 0.75);
 }
 .business{
     display: block;
@@ -109,9 +109,9 @@ main{
     text-align: center;
     align-items: center;
     justify-content: center;
-    color: #F0DA65;
-    background-color: #F03588;
     border-radius: 10px;
+    color: #F0DA65;
+    background-color: rgba(240, 53, 136, 0.75);
 }
 .image-1{
    height: 50%;
