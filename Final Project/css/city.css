@@ -26,7 +26,7 @@
         display: none;
     }
     nav {
-        background-image: linear-gradient( to bottom right, rgb(240, 175, 129,94), rgb(255, 214, 184));
+        background-image: linear-gradient( to bottom right, rgb(240, 175, 129), rgb(255, 214, 184));
         font-family: "Mochiy Pop One", sans-serif;
         text-decoration: none;
         text-align: center;
@@ -183,7 +183,7 @@
         text-align: center;
         display: grid;
         grid-template-columns: repeat(3, 20em);
-        grid-template-rows: 1em , 1fr, 1fr;
+        grid-template-rows: 1em 1fr 1fr;
         grid-gap: 20px;
         padding: 10px;
         color: #F0DA65;
