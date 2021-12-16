@@ -143,6 +143,8 @@ for (let i = 0; i < 1; i++ ) {
     takoyaki.appendChild(takoyakiname);
     takoyaki.appendChild(takoyakiwebsite);
     takoyaki.appendChild(takoyakicontactone);
+    takoyaki.appendChild(takoyakicontacttwo);
+    takoyaki.appendChild(takoyakicontactthree);
     
     document.querySelector('div.takoyaki').appendChild(takoyaki);
 
