@@ -80,8 +80,9 @@
         margin-right: 3%;
     }
     .paragraph-1{
-        color: #90F093;
-        background-color: #F03588;
+        color: #F0DA65;
+        background-color: rgba(240, 53, 136, 0.75);
+        padding: 10px;
         line-height: 2em;
         font-size: 1em;
     }
@@ -99,8 +100,9 @@
         margin-left: 3%;
     }
     .paragraph-2{
-        color: #90F093;
-        background-color: #F03588;
+        color: #F0DA65;
+        background-color: rgba(240, 53, 136, 0.75);
+        padding: 10px;
         line-height: 2em;
         font-size: 1em;
     }
@@ -118,8 +120,9 @@
         margin-right: 3%;
     }
     .paragraph-3{
-        color: #90F093;
-        background-color: #F03588;
+        color: #F0DA65;
+        background-color: rgba(240, 53, 136, 0.75);
+        padding: 10px;
         line-height: 2em;
         font-size: 1em;
     }
@@ -127,8 +130,8 @@
         height: 300px;
     }
     .part-4{
-        color: #90F093;
-        background-color: #F03588;
+        color: #F0DA65;
+        background-color: rgba(240, 53, 136, 0.75);
         padding: 20px;
         display: block;
         margin: auto;
@@ -173,11 +176,12 @@
         grid-template-rows: repeat(4, 1fr);
         grid-gap: 5px;
         margin: auto;
-        background-color: #F03588;
         padding: 10px;
         justify-content: center;
         align-items: center;
         text-align: center;
+        color: #F0DA65;
+        background-color: rgba(240, 53, 136, 0.75);
     }
     .title-5{
         grid-column: 1/5;
