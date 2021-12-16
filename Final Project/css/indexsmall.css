@@ -92,6 +92,7 @@ main{
     padding: 5px;
     color: #F0DA65;
     background-color: rgba(240, 53, 136, 0.75);
+    line-height: 1.5em;
 }
 .join{
     display: none;
@@ -101,6 +102,7 @@ main{
     padding: 5px;
     color: #F0DA65;
     background-color: rgba(240, 53, 136, 0.75);
+    line-height: 1.5em;
 }
 .weather{
     display: block;
@@ -118,6 +120,7 @@ main{
     border-radius: 10px;
     color: #F0DA65;
     background-color: rgba(240, 53, 136, 0.75);
+    line-height: 1.5em;
 }
 .image-1{
    height: 50%;
