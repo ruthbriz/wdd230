@@ -1,7 +1,6 @@
 @media only screen and (min-width: 600px) {
     header{
         background-color:#90F093;
-        padding: 15px;
     }
     .header{
         display: flex;
@@ -12,6 +11,10 @@
         margin-left: 10px;
         max-width: 100%;
         height: 100px;
+    }
+    .alert{
+        color: #F0DA65;
+        background-color: rgba(240, 53, 136, 0.75);
     }
     .title{
         color: #2D1DF0;
