@@ -85,10 +85,11 @@ border-radius: 20px;
     display: block;
     margin: auto;
     padding: 20px;
-    background-color: #F03588;
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #F0DA65;
+    background-color: rgba(240, 53, 136, 0.75);
 }
 img{
 max-width: 100%;
