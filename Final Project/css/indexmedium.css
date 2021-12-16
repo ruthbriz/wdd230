@@ -105,6 +105,7 @@
             grid-row: 2/5;
             color: #F0DA65;
             background-color: rgba(240, 53, 136, 0.75);
+            line-height: 1.5em;
         }
         .join{
             display: block;
@@ -134,6 +135,7 @@
             border-radius: 10px;
             color: #F0DA65;
             background-color: rgba(240, 53, 136, 0.75);
+            line-height: 1.5em;
         }
         .weather{
             grid-column: 4/7;
@@ -155,6 +157,7 @@
             border-radius: 10px;
             color: #F0DA65;
             background-color: rgba(240, 53, 136, 0.75);
+            line-height: 1.5em;
         }
         .image-1{
             grid-column: 1;
