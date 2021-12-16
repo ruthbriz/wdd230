@@ -63,8 +63,8 @@
             padding: 30px;
     }
     fieldset{
-        background-color: #F03588;
-        color: #90F093;
+        color: #F0DA65;
+        background-color: rgba(240, 53, 136, 0.75);
         border-radius: 10px;
     }
     form{
