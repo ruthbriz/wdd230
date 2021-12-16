@@ -13,7 +13,7 @@ fetch(apiURL)
     });
     
   let current = document.getElementById('current');
-    if(current ==! 'Rainy') {
+    if(current != "Clouds") {
     const banner = document.querySelector("#banner")
     banner.remove()
     }
