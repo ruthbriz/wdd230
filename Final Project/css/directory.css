@@ -31,7 +31,7 @@
         text-align: center;
     }
     nav ul{
-        margin-left: 20%;
+        margin-left: 10%;
     }
     nav a {
         text-decoration: none;
@@ -91,11 +91,12 @@
         grid-template-rows: repeat(4, 1fr);
         grid-gap: 5px;
         margin: auto;
-        background-color: #F03588;
         padding: 10px;
         justify-content: center;
         align-items: center;
         text-align: center;
+        color: #F0DA65;
+        background-color: rgba(240, 53, 136, 0.75);
     }
 
     .jmacks{
