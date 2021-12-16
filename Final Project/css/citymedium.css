@@ -94,6 +94,7 @@
     }
     .title-1{
     font-size: 2em;
+    color: #2D1DF0;
     }
     .daniel{
         float: right;
@@ -114,6 +115,7 @@
     }
     .title-2{
         font-size: 2em;
+        color: #2D1DF0;
     }
     .school{
         float: left;
@@ -142,6 +144,7 @@
     .title-3{
         grid-column: 1;
         grid-row: 1;
+        color: #2D1DF0;
     }
     .image-product-1{
         grid-column: 1;
@@ -231,8 +234,7 @@
             text-align: center;
         }
         .byu,.attribution{
-            color: #F03588;
-            text-decoration: none;
+            color: #2D1DF0;
         }
         footer{
             background: #90F093;
