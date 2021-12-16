@@ -138,6 +138,10 @@ main{
     max-width: 100%;
     height: 300px;
 }
+.number{
+    text-align: center;
+    color: #2D1DF0;
+}
 footer{
     background: #90F093;
     padding: 5px;
