@@ -84,7 +84,7 @@ main{
 .events{
     display: block;
     background-color: #F03588;
-    color:#90F093;
+    color: #F0DA65;
     padding: 5px;
 }
 .join{
@@ -93,13 +93,13 @@ main{
 .purpose{
     display: block;
     background-color: #F03588;
-    color:#90F093;
+    color: #F0DA65;
     padding: 5px;
 }
 .weather{
     display: block;
     background-color: #F03588;
-    color:#90F093;
+    color: #F0DA65;
     padding: 5px;
 }
 .business{
@@ -109,7 +109,7 @@ main{
     text-align: center;
     align-items: center;
     justify-content: center;
-    color:#90F093;
+    color: #F0DA65;
     background-color: #F03588;
     border-radius: 10px;
 }
@@ -159,7 +159,7 @@ footer{
     text-align: center;
 }
 .attribution,.byu{
-    color: #F03588;
+    color: #2D1DF0;
     text-decoration: none;
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
