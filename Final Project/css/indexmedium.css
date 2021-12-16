@@ -7,6 +7,7 @@
         align-items: center;
     }
     .logo{
+        margin-right: 3%;
         float: left;
         margin-left: 10px;
         max-width: 100%;
