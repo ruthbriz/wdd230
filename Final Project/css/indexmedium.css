@@ -176,6 +176,10 @@
             grid-column: 3;
             grid-row: 3;
         }
+        .number{
+            text-align: center;
+            color: #2D1DF0;
+        }
         .contact{
             padding: 20px;
             display: grid;
@@ -197,7 +201,6 @@
         }
         .byu,.attribution{
             color: #2D1DF0;
-            text-decoration: none;
         }
         footer{
             background-color: #90F093;
