@@ -31,7 +31,7 @@
         text-align: center;
     }
     nav ul{
-        margin-left: 20%;
+        margin-left: 10%;
     }
     nav a {
         text-decoration: none;
@@ -82,10 +82,11 @@
         margin-right: 3%;
     }
     .paragraph-1{
-        color: #90F093;
-        background-color: #F03588;
         line-height: 2em;
         font-size: 1em;
+        color: #F0DA65;
+        background-color: rgba(240, 53, 136, 0.75);
+        padding: 10px;
     }
     .part-2{
         display: block;
@@ -101,10 +102,11 @@
         margin-left: 3%;
     }
     .paragraph-2{
-        color: #90F093;
-        background-color: #F03588;
         line-height: 2em;
         font-size: 1em;
+        color: #F0DA65;
+        background-color: rgba(240, 53, 136, 0.75);
+        padding: 10px;
     }
     .part-3{
         display: block;
@@ -120,10 +122,11 @@
         margin-right: 3%;
     }
     .paragraph-3{
-        color: #90F093;
-        background-color: #F03588;
         line-height: 2em;
         font-size: 1em;
+        color: #F0DA65;
+        background-color: rgba(240, 53, 136, 0.75);
+        padding: 10px;
     }
     .part-4 img{
         height: 300px;
@@ -133,9 +136,9 @@
         grid-template-columns: repeat(4, 0.5fr);
         grid-template-rows: repeat(2, 0.1fr);
         grid-gap: 10px;
-        color: #90F093;
-        background-color: #F03588;
         padding: 20px;
+        color: #F0DA65;
+        background-color: rgba(240, 53, 136, 0.75);
 
     }
     .title-3{
@@ -168,6 +171,7 @@
     }
     figcaption{
         font-family: "Mochiy Pop One", sans-serif;
+        color: #F0DA65;
     }
     .part-5{
         justify-content: center;
@@ -177,8 +181,9 @@
         grid-template-columns: repeat(3, 20em);
         grid-template-rows: 1em , 1fr, 1fr;
         grid-gap: 20px;
-        background-color: #F03588;
         padding: 10px;
+        color: #F0DA65;
+        background-color: rgba(240, 53, 136, 0.75);
     }
     .title-5{
         grid-column: 1/5;
