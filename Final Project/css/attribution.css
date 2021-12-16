@@ -5,3 +5,12 @@ body {
 a {
     color: #2D1DF0;
 }
+h2{
+    font-family: "Titillium Web", sans-serif;
+}
+p{
+    font-family: "Mochiy Pop One", sans-serif;
+}
+.body{
+    padding: 30px;
+}
