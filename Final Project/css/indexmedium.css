@@ -126,17 +126,17 @@
         }
         .purpose{
             grid-column: 1/4;
-            background-color: #F03588;
             padding: 20px;
             border-radius: 10px;
             color: #F0DA65;
+            background-color: rgba(240, 53, 136, 0.75);
         }
         .weather{
-            background-color: #F03588;
             grid-column: 4/7;
             padding: 20px;
             border-radius: 10px;
             color: #F0DA65;
+            background-color: rgba(240, 53, 136, 0.75);
         }
         .business img{
             max-width: 100%;
