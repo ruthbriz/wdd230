@@ -168,7 +168,6 @@ footer{
 }
 .attribution,.byu{
     color: #2D1DF0;
-    text-decoration: none;
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
