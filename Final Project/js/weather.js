@@ -13,8 +13,11 @@ fetch(apiURL)
     });
     
   let high = document.getElementById('high');
-    if(high <= '46') {
+    if(high <= 79) {
     const banner = document.querySelector("#banner")
     banner.remove()
+    }
+    else{
+      banner.remove()
     }
   });
