@@ -82,8 +82,9 @@ main{
 .hall{
 }
 .paragraph-1{
-    color: #90F093;
-    background-color: #F03588;
+    color: #F0DA65;
+    background-color: rgba(240, 53, 136, 0.75);
+    padding: 10px;
     line-height: 2em;
     font-size: 1em;
 }
@@ -99,8 +100,9 @@ font-size: 2em;
 .daniel{
 }
 .paragraph-2{
-    color: #90F093;
-    background-color: #F03588;
+    color: #F0DA65;
+    background-color: rgba(240, 53, 136, 0.75);
+    padding: 10px;
     line-height: 2em;
     font-size: 1em;
 }
@@ -116,8 +118,9 @@ font-size: 2em;
 .school{
 }
 .paragraph-3{
-    color: #90F093;
-    background-color: #F03588;
+    color: #F0DA65;
+    background-color: rgba(240, 53, 136, 0.75);
+    padding: 10px;
     line-height: 2em;
     font-size: 1em;
 }
@@ -131,9 +134,8 @@ font-size: 2em;
     text-align: center;
     align-items: center;
     justify-content: center;
-    color: #90F093;
-    background-color: #F03588;
-
+    color: #F0DA65;
+    background-color: rgba(240, 53, 136, 0.75);
 }
 .title-3{
     grid-column: 1;
