@@ -16,6 +16,8 @@ header{
     margin-left: 10px;
     max-width: 100%;
     height: 100px;
+    margin-right: 3%;
+    float: left;
 }
 .alert{
     color: #F0DA65;
