@@ -12,8 +12,8 @@ fetch(apiURL)
     this.closest(".alert").remove();
     });
     
-  let current = document.getElementById('current');
-    if(current != "Clouds") {
+  let high = document.getElementById('high');
+    if(high != 74.17) {
     const banner = document.querySelector("#banner")
     banner.remove()
     }
