@@ -19,3 +19,6 @@ document.querySelector(".closebtn").addEventListener("click", function () {
 	const banner = document.querySelector("#banner")
 	banner.remove()
   }
+
+  var x = document.lastModified;
+  document.getElementById("lastmodified").innerHTML = x;
